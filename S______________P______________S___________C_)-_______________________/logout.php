@@ -1,0 +1,11 @@
+<?php
+session_start();
+unset($_SESSION['user']);
+unset($_SESSION['cand_user']);
+unset($_SESSION['preexam_user']);
+unset($_SESSION['postexam_user']);
+unset($_SESSION['adminexam_user']);
+unset($_SESSION['verification_exam']);
+session_destroy();
+header("location:index.php");
+?>

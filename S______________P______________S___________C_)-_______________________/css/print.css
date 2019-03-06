@@ -1,0 +1,64 @@
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #section-to-print, #section-to-print * {
+    visibility: visible;
+  }
+  #section-to-print {
+   
+    left: 0;
+    top: 0;
+    right: 0;
+
+  }
+  #header-page{
+   
+    position: fixed;
+      top:0;
+  }
+   .btn
+
+    {
+
+        display: none;
+
+    }
+
+    .tble
+
+    {
+
+        background-color: #CD853F;
+
+        border:1px solid green;
+
+        -webkit-print-color-adjust: exact
+
+
+
+    }
+}
+@media screen /*--This is for Print Preview Screen--*/
+
+{
+
+    .btn
+
+    {
+
+        display: none;
+
+    }
+
+    .tble
+
+    {
+
+        background-color: #CD853F;
+
+        border:1px solid green;
+
+    }
+
+}

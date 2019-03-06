@@ -1,0 +1,280 @@
+/* 
+    Starry Night DEMO
+    chriscoyier@gmail.com
+    http://chriscoyier.net
+*/
+
+* { margin: 0; padding: 0; }
+
+html { overflow-y: scroll; }
+
+.clear {
+	clear: both;
+}
+
+.floatLeft {
+	float: left;
+}
+
+.floatRight {
+	float: right;
+}
+
+body { 
+	font: 10px/2 "Lucida Grande", Helvetica, Sans-Serif;
+	color: #eee;
+}
+
+@-webkit-keyframes STAR-MOVE {
+	from {
+		left: 0;
+		top: 0;
+	}
+	to { 
+		left: -10000px;
+		top: -2000px;
+	}
+}
+@keyframes moving-star-background {
+    from {background-position:0 0;}
+    to {background-position:10000px 2000px;}
+}
+@-webkit-keyframes moving-star-background {
+    from {background-position:0 0;}
+    to {background-position:10000px 2000px;}
+}
+@-moz-keyframes moving-star-background {
+    from {background-position:0 0;}
+    to {background-position:10000px 2000px;}
+}
+@-ms-keyframes moving-star-background {
+    from {background-position:0 0;}
+    to {background-position:10000px 2000px;}
+}
+
+@keyframes moving-star-background-rev {
+    from {background-position:0 0;}
+    to {background-position:-10000px -2000px;}
+}
+@-webkit-keyframes moving-star-background-rev {
+    from {background-position:0 0;}
+    to {background-position:-10000px -2000px;}
+}
+@-moz-keyframes moving-star-background-rev {
+    from {background-position:0 0;}
+    to {background-position:-10000px -2000px;}
+}
+@-ms-keyframes moving-star-background-rev {
+    from {background-position: 0;}
+    to {background-position:-10000px -2000px;}
+}
+
+
+.sky_back{
+    position:absolute;top:0;left:0;right:0;bottom:0;width:100%;height:100%;display:block;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-iteration-count:infinite;
+    -moz-animation-timing-function:linear;
+    -moz-animation-iteration-count:infinite;
+    -ms-animation-timing-function:linear;
+    -ms-animation-iteration-count:infinite;
+}
+#background{
+	background:url(../images/background.png) repeat 5% 5%; 
+	z-index:100; 
+	top: 0; left: 0; right: 0; bottom: 0;
+	position: absolute;
+}.animations-on #background{
+    animation-name:moving-star-background-rev;
+    animation-duration:600s;
+    -webkit-animation-name:moving-star-background-rev;
+    -webkit-animation-duration:600s;
+    -moz-animation-name:moving-star-background-rev;
+    -moz-animation-duration:600s;
+    -ms-animation-name:moving-star-background-rev;
+    -ms-animation-duration:600s;
+}
+#midground{
+	background:url(../images/midground.png) repeat 20% 20%; 
+	z-index:200; 
+	position: absolute;
+}.animations-on #midground{
+    animation-name:moving-star-background;
+    animation-duration:300s;
+    -webkit-animation-name:moving-star-background;
+    -webkit-animation-duration:300s;
+    -moz-animation-name:moving-star-background;
+    -moz-animation-duration:300s;
+    -ms-animation-name:moving-star-background;
+    -ms-animation-duration:300s;
+}
+#foreground{
+	background:url(../images/foreground.png) repeat 35% 35%; 
+	z-index:300; 
+	position: absolute;
+}.animations-on #foreground{
+    animation-name:moving-star-background;
+    animation-duration:150s;
+    -webkit-animation-name:moving-star-background;
+    -webkit-animation-duration:150s;
+    -moz-animation-name:moving-star-background;
+    -moz-animation-duration:150s;
+    -ms-animation-name:moving-star-background;
+    -ms-animation-duration:150s;
+}
+
+/*#background {
+	background: black url(../images/background.png) repeat 5% 5%;
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+	z-index: 100;
+	
+	-webkit-animation-name: STAR-MOVE;
+	-webkit-animation-duration: 200s;
+	-moz-animation-name: STAR-MOVE;
+	-moz-animation-duration: 200s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-timing-function:linear;
+    -moz-animation-iteration-count:infinite;
+    -ms-animation-timing-function:linear;
+    -ms-animation-iteration-count:infinite;
+}
+
+#midground {
+	background: url(../images/midground.png) repeat 20% 20%;
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+	z-index: 200;
+	
+	-webkit-animation-name: STAR-MOVE;
+	-webkit-animation-duration: 150s;
+	-moz-animation-name: STAR-MOVE;
+	-moz-animation-duration: 150s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-timing-function:linear;
+    -moz-animation-iteration-count:infinite;
+    -ms-animation-timing-function:linear;
+    -ms-animation-iteration-count:infinite;
+}
+
+#foreground {
+	background: url(../images/foreground.png) repeat 35% 35%;
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+	z-index: 300;
+	
+	-webkit-animation-name: STAR-MOVE;
+	-webkit-animation-duration: 100s;
+	-moz-animation-name: STAR-MOVE;
+	-moz-animation-duration: 100s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-timing-function:linear;
+    -moz-animation-iteration-count:infinite;
+    -ms-animation-timing-function:linear;
+    -ms-animation-iteration-count:infinite;
+}*/
+
+#sidebar {
+	width: 160px;
+	float: left;
+	margin-right: 20px;
+}
+
+#main-content {
+	width: 540px;
+	float: right;
+}
+
+#page-wrap {
+	width: auto;
+	margin: 0 auto;
+	position: relative;
+	z-index: 300;
+	background: rgba(0,0,0,0.7);
+	overflow: hidden;
+	padding: 30px 50px;
+}
+
+h1 {
+	font: 42px Georgia, Serif;
+	margin: 0 0 10px 0;
+	color: #eee;
+}
+
+h2 {
+	font: 20px Georgia, Serif;
+	margin: 0 0 1px 0;
+	color: #eee;
+}
+
+h2.bump {
+	text-indent: 200px;
+}
+
+p {
+	margin: 0 0 15px 0;
+	color: #999;
+}
+
+code {
+	color: white;
+	margin: -1px 0 0 0;
+	font: 10px Courier;
+}
+
+p.thinParagraph {
+	width: 340px;
+}
+
+blockquote {
+	font: italic 15px/20px Georgia, Serif;
+	width: 180px;
+}
+
+blockquote p {
+	color: white;
+}
+
+blockquote.right {
+	float: right;
+}
+
+ul.meta {
+	width: 180px;
+	margin: 0 10px 0 0;
+	list-style: none;
+	float: left;
+}
+
+ul.meta li {
+	text-align: right;
+}
+
+ul.meta li.author {
+	font: normal small-caps normal 15px Georgia, Serif;
+	margin: 0 0 2px 0;
+	letter-spacing: 2px;
+}
+
+ul.meta li.date {
+	margin: 0 0 10px 0;
+}
+
+ul.meta li.comments {
+	font-style: italic;
+}
+
+.article {
+	float: right;
+	width: 340px;
+}
+
+ol {
+	margin: 20px 0;
+	list-style: inside decimal;
+}

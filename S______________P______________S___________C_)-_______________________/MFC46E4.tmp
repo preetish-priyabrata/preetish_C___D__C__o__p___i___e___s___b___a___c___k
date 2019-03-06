@@ -1,0 +1,118 @@
+<?php
+error_reporting(0);
+ob_start();
+session_start();
+if($_SESSION['user']=="preexam@gmail.com")
+{
+?>
+<script>
+function generate_acard()
+{
+	alert("Admit Card Generated Successfully");
+}
+</script>
+<div class="col-md-3"> 
+                <div class="tab-content">
+<div role="tabpanel" class="well modal-content form-horizontal tab-pane active fade in" id="general">
+
+                 <legend><h3>View Enrollment List</h3></legend>               
+                  <table class="table">
+                  
+                  <tr>
+                  <td>Exam</td>
+                  <td><select id="exam" name="exam" class="form-control">
+                  <option value="">--Select Exam--</option>
+                  <option>Exam-1</option>
+                  <option>Exam-2</option>
+                  <option>Exam-3</option></select>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>Year</td>
+                  <td><select id="year" name="year" class="form-control">
+                  <option value="">--Select Year--</option>
+                  <option>2015</option>
+                  <option>2014</option>
+                  <option>2013</option>
+                  <option>2012</option>
+                  <option>2011</option>
+                  <option>2010</option></select></td>
+                  </tr>
+                  <tr>
+                  <td>Month</td>
+                  <td><select id="mnth" name="mnth" class="form-control">
+                  <option value="">--Select Month--</option>
+                  <option>Jan</option>
+                  <option>Feb</option>
+                  <option>Mar</option>
+                  <option>Apr</option>
+                  <option>May</option>
+                  <option>June</option>
+                  <option>July</option>
+                  <option>Aug</option>
+                  <option>Sep</option>
+                  <option>Oct</option>
+                  <option>Nov</option>
+                  <option>Dec</option></select></td>
+                  </tr>
+                  <tr>
+                  <td>Center</td>
+                  <td><select id="mnth" name="mnth" class="form-control">
+                  <option value="">--Select Month--</option>
+                  <option>Center 1</option>
+                  <option>Center 2</option>
+                  <option>Center 3</option></select></td>
+                  </tr>
+                    </table>
+<center><input type="button" class="btn-primary" id="search" name="search" value="Search" onClick="show_acard_list_info();"></center>
+
+</div>
+
+ </div>
+       <div class="col-lg-12" id="show_acard_list"> 
+                
+                               </div>                        
+                               </div>
+                                <div class="col-md-2" id="total_stud">
+                     </div>
+                     <div class="col-md-2" id='generate_preview' style="display:none;">
+                     <table class="table">
+                    <tr>
+                    	<td><input type="text" class="form-control" placeholder="Room No."/></td>
+                    </tr> 
+                    <tr>
+                    	<td><input type="text" class="form-control" placeholder="No. of Rows"/></td>
+                    </tr> 
+                    <tr>
+                    	<td><input type="text" class="form-control" placeholder="No. of Columns"/></td>
+                    </tr> 
+                    <tr>
+                    	<td><input type="text" class="form-control" placeholder="Starting Roll No."/></td>
+                    </tr> 
+                    <tr>
+                    	<td>
+                            <select id="mnth" name="mnth" class="form-control">
+                              <option value="">--Select Starting Set--</option>
+                              <option>Set A</option>
+                              <option>Set B</option>
+                              <option>Set C</option>
+                              <option>Set D</option>
+                            </select>
+                        </td>
+                    </tr> 
+                    <tr>
+                        <td><input type="button" id="generate" name="generate" style="background-color:#39F; color:#000;" class="btn-block" value="Generate" onClick="location.href='view_sitting.php'" /></td>
+                    </tr>
+                    </table>
+
+                     </div>
+                     <div class="col-lg-5" id="preview_acard"> 
+                
+                               </div>
+ <?php
+}
+$contents = ob_get_contents();
+ob_clean();
+
+include_once 'template.php';
+?>

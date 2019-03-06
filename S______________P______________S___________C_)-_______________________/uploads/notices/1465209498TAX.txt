@@ -1,0 +1,43 @@
+EXAMPLE:-1
+$(function(){
+    $('button').on('click',function(){
+        var r= $('<input type="button" value="new button"/>');
+        $("body").append(r);
+    });
+});
+
+
+EXAMPLE:-2
+
+<script type="text/javascript">
+
+function test()
+{
+    if($('input#field').length==0)
+    {
+       $('<input type="button" id="field"/>').appendTo('body');
+     }
+}
+</script>
+
+
+eXAMPLE:-3
+
+
+<div id="Content">
+<button id="Add" value="Add" />
+</div> 
+if you want after the buttom
+
+$(function () {
+  $('#Add').click(function () {
+    $('#Content').after('<p>Text</p>');
+  });
+});
+or before
+
+$(function () {
+  $('#Add').click(function () {
+    $('#Content').before('<p>Text</p>');
+  });
+}); 

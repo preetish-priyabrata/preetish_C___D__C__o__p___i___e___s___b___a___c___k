@@ -1,0 +1,61 @@
+    .small-box.bg-aqua {
+        background-color: #00c0ef !important;
+    }
+    .small-box > .small-box-footer {
+        position: relative;
+        text-align: center;
+        padding: 3px 0;
+        color: #fff;
+        color: rgba(255,255,255,0.8);
+        display: block;
+        z-index: 10;
+        background: rgba(0,0,0,0.1);
+        text-decoration: none;
+    }
+    .small-box > .inner {
+        padding: 10px;
+    }
+    .small-box .icon:hover {
+        -webkit-transition: all .8s linear;
+        -o-transition: all .8s linear;
+        transition: all .8s linear;
+        position: absolute;
+        top: -10px;
+        right: 10px;
+        z-index: 0;
+        font-size: 90px;
+        color: rgba(0,0,0,0.15);
+    }
+    .small-box {
+        border-radius: 2px;
+        position: relative;
+        display: block;
+        margin-bottom: 20px;
+        box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    }
+     .small-box .icon{
+        position: absolute;
+        top: -1px;
+        right: 10px;
+        z-index: 0;
+        font-size: 40px;
+        color: rgba(0,0,0,0.15);
+     }
+     .small-box.bg-green {
+        background-color: #00a65a !important;
+    }
+     .small-box.bg-red {
+        background-color: #dd4b39 !important;
+    }
+    .badge.badge-primary {
+        background-color: #0099ff;
+    }
+    .badge.badge-success {
+        background-color: #009900;
+    }
+    .badge.badge-warning {
+        background-color: #cc7a00;
+    }
+    .badge.badge-danger {
+        background-color: #ff0000;
+    } 
