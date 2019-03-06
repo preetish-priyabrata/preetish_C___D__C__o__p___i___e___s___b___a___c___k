@@ -1,0 +1,3 @@
+<th><button class="records" name="class_" id="class_" value="<?php echo $str; ?>" onclick="showrecords(this.value);" ><?php echo $num_row." "."Records"; ?></button></th>
+<th><button class="records" name="class_male_" id="class_male_" value="<?php echo $str1; ?>" onclick="showrecords(this.value);" ><?=$num_row1?></button></th>
+<th><button class="records" name="class_female_" id="class_female_" value="<?php echo $str2; ?>" onclick="showrecords(this.value);" ><?=$num_row2?></button></th>

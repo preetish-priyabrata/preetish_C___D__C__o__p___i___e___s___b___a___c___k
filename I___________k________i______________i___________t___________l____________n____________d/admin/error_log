@@ -1,0 +1,8 @@
+[07-Aug-2014 02:53:58] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/teerth/public_html/admin/protected.php:5) in /home/teerth/public_html/admin/protected.php on line 6
+[07-Aug-2014 02:54:36] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/teerth/public_html/admin/protected.php:5) in /home/teerth/public_html/admin/protected.php on line 6
+[09-Aug-2014 07:52:52] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/teerth/public_html/admin/addMessage.php:2) in /home/teerth/public_html/admin/protected.php on line 2
+[14-Feb-2015 15:43:05] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/admin/currentOpenings.php on line 106
+[14-Feb-2015 15:44:19] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/admin/currentOpenings.php on line 106
+[14-Feb-2015 15:47:54] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/admin/currentOpenings.php on line 106
+[14-Feb-2015 15:47:58] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/admin/currentOpenings.php on line 106
+[14-Feb-2015 15:51:15] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/admin/currentOpenings.php on line 106
