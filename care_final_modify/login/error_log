@@ -1,0 +1,8 @@
+[29-Oct-2018 07:32:44 UTC] PHP Notice:  Undefined index: cama_email in /home/innovadorslab/public_html/care_final_modify/login/login_process.php on line 182
+[29-Oct-2018 07:32:44 UTC] PHP Notice:  Undefined index: user_level in /home/innovadorslab/public_html/care_final_modify/login/login_process.php on line 197
+[29-Oct-2018 08:58:08 UTC] PHP Notice:  Undefined index: cama_email in /home/innovadorslab/public_html/care_final_modify/login/login_process.php on line 182
+[29-Oct-2018 08:58:08 UTC] PHP Notice:  Undefined index: user_level in /home/innovadorslab/public_html/care_final_modify/login/login_process.php on line 197
+[29-Oct-2018 12:33:20 UTC] PHP Notice:  Undefined index: cama_email in /home/innovadorslab/public_html/care_final_modify/login/login_process.php on line 182
+[29-Oct-2018 12:33:20 UTC] PHP Notice:  Undefined index: user_level in /home/innovadorslab/public_html/care_final_modify/login/login_process.php on line 197
+[30-Oct-2018 12:54:48 UTC] PHP Notice:  Undefined index: cama_email in /home/innovadorslab/public_html/care_final_modify/login/login_process.php on line 182
+[30-Oct-2018 12:54:48 UTC] PHP Notice:  Undefined index: user_level in /home/innovadorslab/public_html/care_final_modify/login/login_process.php on line 197

@@ -1,0 +1,18 @@
+[29-Oct-2018 14:29:55 Asia/Calcutta] PHP Notice:  Uninitialized string offset: 1 in /home/innovadorslab/public_html/care_final_modify/crp_user/crp_all_form_save.php on line 339
+[29-Oct-2018 12:25:48 UTC] PHP Notice:  Undefined index: employee_id in /home/innovadorslab/public_html/care_final_modify/crp_user/crp_livestock_info_livestock_view.php on line 6
+[29-Oct-2018 18:07:00 Asia/Calcutta] PHP Notice:  Undefined index: form_uses_id in /home/innovadorslab/public_html/care_final_modify/crp_user/crp_PHL_info_PHL_view.php on line 13
+[29-Oct-2018 18:12:39 Asia/Calcutta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/innovadorslab/public_html/care_final_modify/crp_user/crp_lst_info_lst_view.php on line 203
+[30-Oct-2018 18:29:12 Asia/Calcutta] PHP Notice:  Undefined variable: care_hhi_slno in /home/innovadorslab/public_html/care_final_modify/crp_user/crp_crop_info_crop_view.php on line 96
+[30-Oct-2018 18:49:22 Asia/Calcutta] PHP Notice:  Undefined index: care_mt_date_for8 in /home/innovadorslab/public_html/care_final_modify/crp_user/crp_all_form_save.php on line 830
+[30-Oct-2018 18:49:22 Asia/Calcutta] PHP Notice:  Undefined variable: care_hhi_slno in /home/innovadorslab/public_html/care_final_modify/crp_user/crp_crop_info_crop_view.php on line 96
+[30-Oct-2018 19:08:52 Asia/Calcutta] PHP Notice:  Uninitialized string offset: 1 in /home/innovadorslab/public_html/care_final_modify/crp_user/crp_all_form_save.php on line 322
+[30-Oct-2018 19:15:19 Asia/Calcutta] PHP Notice:  Uninitialized string offset: 1 in /home/innovadorslab/public_html/care_final_modify/crp_user/crp_all_form_save.php on line 322
+[30-Oct-2018 19:17:48 Asia/Calcutta] PHP Notice:  Undefined index: form_uses_id in /home/innovadorslab/public_html/care_final_modify/crp_user/crp_PHL_info_PHL_view.php on line 13
+[30-Oct-2018 19:20:40 Asia/Calcutta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/innovadorslab/public_html/care_final_modify/crp_user/crp_lst_info_lst_view.php on line 203
+[30-Oct-2018 19:24:55 Asia/Calcutta] PHP Notice:  Undefined variable: form_type in /home/innovadorslab/public_html/care_final_modify/crp_user/crp_training_info_training.php on line 91
+[30-Oct-2018 19:28:07 Asia/Calcutta] PHP Notice:  Undefined index: care_hhi in /home/innovadorslab/public_html/care_final_modify/crp_user/crp_all_form_save.php on line 34
+[30-Oct-2018 19:28:07 Asia/Calcutta] PHP Notice:  Undefined index: care_hhi_slno in /home/innovadorslab/public_html/care_final_modify/crp_user/crp_all_form_save.php on line 35
+[30-Oct-2018 19:30:24 Asia/Calcutta] PHP Notice:  Undefined index: care_hhi in /home/innovadorslab/public_html/care_final_modify/crp_user/crp_go_form_go.php on line 11
+[30-Oct-2018 19:30:24 Asia/Calcutta] PHP Notice:  Undefined index: care_hhi_slno in /home/innovadorslab/public_html/care_final_modify/crp_user/crp_go_form_go.php on line 12
+[30-Oct-2018 19:30:24 Asia/Calcutta] PHP Notice:  Undefined index: care_hhi in /home/innovadorslab/public_html/care_final_modify/crp_user/crp_go_form_go.php on line 14
+[30-Oct-2018 19:30:24 Asia/Calcutta] PHP Notice:  Undefined index: care_hhi_slno in /home/innovadorslab/public_html/care_final_modify/crp_user/crp_go_form_go.php on line 15
