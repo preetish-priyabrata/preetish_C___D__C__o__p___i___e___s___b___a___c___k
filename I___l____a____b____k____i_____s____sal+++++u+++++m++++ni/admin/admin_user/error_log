@@ -1,0 +1,2 @@
+[18-Dec-2017 04:22:40 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/innovadorslab/public_html/kissalumni/admin/admin_user/admin_user_reply_Query.php on line 75
+[18-Dec-2017 04:34:26 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/innovadorslab/public_html/kissalumni/admin/admin_user/admin_user_reply_Query.php on line 75

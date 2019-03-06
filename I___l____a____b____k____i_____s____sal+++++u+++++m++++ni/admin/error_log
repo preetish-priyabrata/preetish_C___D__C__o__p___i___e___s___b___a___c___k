@@ -1,0 +1,4 @@
+[28-Dec-2017 08:34:11 UTC] PHP Notice:  Undefined index: userid in /home/innovadorslab/public_html/kissalumni/admin/login.php on line 15
+[28-Dec-2017 08:34:11 UTC] PHP Notice:  Undefined index: password in /home/innovadorslab/public_html/kissalumni/admin/login.php on line 16
+[28-Dec-2017 12:37:19 UTC] PHP Notice:  Undefined index: userid in /home/innovadorslab/public_html/kissalumni/admin/login.php on line 15
+[28-Dec-2017 12:37:19 UTC] PHP Notice:  Undefined index: password in /home/innovadorslab/public_html/kissalumni/admin/login.php on line 16

@@ -1,0 +1,862 @@
+http://www.killerphp.com/tutorials/php-objects-page-3/
+
+
+http://www.w3programmers.com/php-object-oriented-programming-part-1/
+
+
+
+
+11 APRIL, 2017  Facebook Twitter Google+ 
+w3programmers
+Main menuSkip to content
+HOME
+CATEGORIES
+CONTACT US
+TRAININGS
+VIDEOS
+POSTED ON 13 JUNE, 2012 BY MASUD ALAM
+PHP Object Oriented Programming Part-1
+[printfriendly]
+
+This tutorial introduces you to object-oriented programming in PHP. You’ll explore the basics of object-oriented programming, and learn how to write simple object-oriented PHP scripts.
+
+Welcome to the first in a series of tutorials covering object-oriented programming in PHP. In this series you’ll explore the various ideas and concepts involved in object-oriented programming, and learn how to build robust object-oriented PHP applications quickly and easily.
+
+In this tutorial, we’re going to kick things off nice and gently by looking at some really basic concepts of object-oriented programming. You’re going to learn:
+
+What object-oriented programming is
+How object-oriented programming can help you write better PHP scripts
+Some fundamental concepts, including classes, objects, methods , properties, constructors ,  destructors, and
+How to start writing object-oriented PHP code.
+Ready to explore the world of PHP objects? Let’s get started!
+
+What is object-oriented programming?
+
+Object-oriented programming, or OOP, takes things further by storing both the data structures, and the functions that work on the data, in a single entity known as an object. Rather than passing data around in function calls, you instead load the data you want to work with into an object, and then call the object’s functions to manipulate the object’s data and produce the result you want.
+
+Often, the objects that you create with OOP tend to reflect real-world entities. For example, if you were writing a forum system for your website, you might create a Member object that contains all the information about a given forum member (name, username, email address, password, and so on), as well as functions to operate on that data (register, login, logout, ban, and so on).
+
+Why use object-oriented programming?
+
+Procedural and object-oriented programmings are two different ways to do the same thing. Neither style is “better” than the other — it’s largely down to personal preference — and you can freely mix and match procedural and object-oriented code in a single PHP script.
+
+That said, there are some advantages that OOP can offer you as a developer:
+
+Easy to map onto real-world situations: As I mentioned earlier, objects can easily map onto real-world “objects” such as people, products, shopping carts, blog posts, and so on. This makes life easier when you set out to design your object-oriented applications, since the purpose of each object, as well as the relationship between objects, is already fairly clear.
+Easy to write modular code: OOP naturally lends itself to writing code in self-contained modules. By separating your code into distinct modules, you make your code more manageable, and easier to debug and extend.
+
+Easy to write reusable code: Writing reusable code can save you a great deal of time when writing an app, and over time you can build up a library of reusable code modules that you can use in many different apps. OOP makes it relatively easy to write reusable code, since data structures and functions are nicely encapsulated in a single, reusable object. It’s also possible to take an existing object and extend it to add new functionality for a specific application, which again makes objects easy to reuse.
+Some fundamental concepts
+
+Some Fundamental Concept
+
+Before we move onto writing object-oriented code in PHP, it’s important to understand 4 fundamental OOP concepts: classes, objects, properties, and methods.
+
+Classes
+
+A class is a blueprint for objects. It’s a chunk of code that defines:
+
+The types of data that objects created from the class will store, and
+The functions that those objects will contain.
+When you build your object-oriented application, you typically create one or more classes representing various types of entities in your app. For example, if you’re writing a forum application, you might create classes called Forum, Topic, Post, and Member.
+
+Objects
+
+An object is a special type of variable that is created from a class. It contains actual data, and you can call the object’s functions to do stuff to that data. You can create as many objects as you like from a single class. Each object functions independently of the others, even if they all come from the same class.
+
+To use a real-world analogy:
+
+A class is like a blueprint for a car. It defines how cars created from the blueprint will look and behave, but it’s still an abstract concept.
+An object is like a real car created from the blueprint. It has real properties (such as how fast it’s going), and real behaviors (like “accelerate” and “brake”).
+Note:
+
+An object is often said to be an instance of a class, and the process of creating an object from a class is called instantiation.
+
+Properties
+
+The data values that an object holds are stored in special variables known as properties. An object’s properties are closely tied to the object. Although all objects created from a given class have the same properties, one object’s properties can have different values to another object’s properties.
+
+Methods
+
+The functions that are defined within a class — and used in an object — are known as methods. In many ways, they’re just like regular functions — you can pass values to them, they can contain local variables, and they can return values. However, an object’s methods typically work mostly with the object’s properties. For example, a login() method to log a member into your forums might set the member’s loggedIn property to true.
+
+How to create classes in PHP
+
+Now that you know what classes, objects, properties and methods are, it’s time to get down to business and create some classes and objects using PHP code.
+
+First, let’s look at creating a class. The basic syntax for creating a class in PHP looks like this:
+
+
+class ClassName
+{
+// (class definition goes here)
+}
+
+For example, if you were creating a Member class for a web forums application, you’d write:
+
+
+class Member
+{
+// (class definition goes here)
+}
+
+Pretty straightforward stuff! Of course, this class doesn’t do much until you’ve added properties and methods to the class. Nevertheless, the above code creates a valid, usable class in PHP.
+
+It’s good programming practice to put each class’s code in its own file, with the same name as the class. For example, you might put the above Member class code in a file called Member.php, and store the file in a folder called classes.
+
+How to create objects in PHP
+
+You create an object from a class by using the new keyword, as follows:
+
+new ClassName()
+
+This creates an object based on the class ClassName. Usually you’ll then want to store your newly-created object in a variable so that you can access it later. For example, let’s create a new Member object and store it in a variable called $member:
+
+$member = new Member();
+
+We can also create another object from the same class if we want:
+
+$member2 = new Member();
+
+Even though we created them from the same Member class, $member and $member2 are independent of each other.
+
+Visibility (public, private, protected)
+
+The visibility of class members, (properties, methods), relates to how that member may be manipulated within, or from outside the class. Three levels of visibilty exist for class members.
+
+public
+private
+protected
+By default, all class members are public. This means if you do not declare a property or method within the class, it will be public. It is good practice to declare the visibility of class members for the sake of readability for yourself and others. It is much easier for another programmer to see your intentions. This will also future proof your scripts should access modifiers be deprecated.
+
+Public class members (properties and methods) are available through-out the script and may be accessed from outside the class as we demonstrated in our car class. Lets create a simple new class to demonstrate.
+
+
+<?php
+
+class mathematics{
+/*** a  number ***/
+public $num;
+
+/**
+*
+* Add two to a number
+*
+* @access public
+*
+* @return int
+*
+**/
+public function addTwo(){
+return $this->num+2;
+}
+
+}/*** end of class ***/
+
+/*** Instantiate a new class instance ***/
+$math = new mathematics;
+
+/*** set the value of the number ***/
+$math->num = 2;
+
+/*** call the addTwo method ***/
+echo $math->addTwo();
+
+?>
+
+We can see in the above example that the public variable $num is set from user space and we call a public method that adds two the number and returns the value of $num+2. Having our properties (variables) visible or accessible from any part of our script works in our favour here, but it can also work against us. A could arise if we lost track of our values and changed the value of $num. To counter this problem we can create a method to set the value for us. Even with this in place it is still possible for somebody to simply access the $num variable. So we make the variable private. This ensures us that the property is only available within the class itself. It is private to the calling class. Consider the following code.
+
+
+<?php
+
+class mathematics{
+
+/*** a  number ***/
+private $num;
+
+/**
+*
+* Set the value of $num
+*
+* @access public
+*
+* @param $num The number to set
+*
+* @return int
+*
+**/
+public function setNum($num){
+$this->num = $num;
+}
+
+/**
+*
+* Add two to a number
+*
+* @access public
+*
+* @return int
+*
+**/
+public function addTwo(){
+return $this->num+2;
+}
+
+}/*** end of class ***/
+
+/*** Instantiate a new class instance ***/
+$math = new mathematics;
+
+/*** set the value of the number ***/
+$math->setNum(2);
+
+/*** call the addTwo method ***/
+echo $math->addTwo();
+
+?>
+
+Any further attempt to reset the $num property without the setNum() method would result in a Fatal Error such as
+Fatal error: Cannot access private property mathematics::$num in /www/mathematics.class.php on line 43
+Even if you were to try to access the private $num property from a child class it would fail. This is because private methods and properties in a parent class are not visible to child classes and cannot be accessed. To access a parent method or property from a child class you need to use the protected keyword. Like the private keyword, protetected methods and properties are available only to the class that created them. But unlike private, protected methods and properties are visible from a parent class. Lets see how this works.
+
+
+<?php
+
+class mathematics{
+/*** a  number ***/
+protected $num;
+
+/**
+*
+* Set the value of $num
+*
+* @access public
+*
+* @param $num The number to set
+*
+* @return int
+*
+**/
+public function setNum($num){
+$this->num = $num;
+}
+
+/**
+*
+* Add two to a number
+*
+* @access public
+*
+* @return int
+*
+**/
+public function addTwo(){
+return $this->num+2;
+}
+
+}/*** end of class ***/
+
+class divide extends mathematics{
+
+/**
+*
+* Divide a number by two
+*
+* @access public
+*
+* @return int
+*
+**/
+public function divideByTwo(){
+/*** divide number by two ***/
+$new_num = $this->num/2;
+/*** return the new number and round to 2 decimal places ***/
+return round($new_num, 2);
+}
+
+} /*** end of class ***/
+
+/*** Instantiate a new class instance ***/
+$math = new divide;
+
+/*** set the value of the number ***/
+$math->setNum(14);
+
+echo $math->divideByTwo();
+
+?>
+
+We can see here the the user space code has called the setNum() method in the parent mathematics class. This method, in turn, sets the $num property. We are able to do this because the $num property has been declared protected and is visible to the child class.
+
+Accessing properties
+
+To access an object’s property you use the -> operator, as follows:
+
+$object->propertyName
+Let’s try this out. We’ll create a script that declares our Member class and property, creates a new Member object, then sets and reads the object’s username property:
+
+
+<?php
+
+class Member
+{
+public $username = "";
+}
+
+$member = new Member();
+$member->username = "Fred";
+echo $member->username;    // Displays "Fred"
+
+?>
+
+Adding methods to a class
+
+Adding Methods to a Class
+
+How about adding methods to a class? As I mentioned earlier, methods are simply functions that are part of a class. So it probably comes as no surprise that you create a method much like any other function — by using the function keyword. The only difference is that you should also add public, private or protected to the method definition, much as you do with properties:
+
+class ClassName
+{
+  public function methodName() {
+    // (Method's code here)
+  }
+   private function methodName() {
+    // (Method's code here)
+  }
+   protected function methodName() {
+    // (Method's code here)
+  }
+}
+Note:
+
+As with properties, public methods can be called from anywhere, private methods can only be called by other methods in the class, and protected methods can be called by methods in the class and in any derived classes.
+
+Let’s try adding some methods to our Member class. We’ll add:
+
+A private property called $loggedIn to record whether the member is logged in or not
+A method called login() that logs the member in by setting $loggedIn to true
+A method called logout() that logs the member out by setting $loggedIn to false
+A method called isLoggedIn() that returns the value of $loggedIn
+Here’s our script:
+
+<?php
+
+class Member
+{
+public $username = "";
+private $loggedIn = false;
+
+public function login() {
+$this->loggedIn = true;
+}
+
+public function logout() {
+$this->loggedIn = false;
+}
+
+public function isLoggedIn() {
+return $this->loggedIn;
+}
+}
+
+?>
+
+Notice that we’ve used a new keyword inside our methods: $this. In the context of an object’s method, the special variable $this refers to the object itself. By using $this within an object’s method, the method can access any of the other properties and methods in the object.
+
+For example, the login() method accesses its object’s $loggedIn property by using $this->loggedIn.
+
+By the way, we made our $loggedIn property private so that outside code can only access it through the login(), logout() and isLoggedIn() methods. This is a good approach, as it keeps the inner details of the object — such as how it records whether a member is logged in or out — separate from the outside code. Use private properties whenever possible to keep your objects self-contained, portable, and secure.
+
+Note: I made the $username property public mainly to show how to access properties earlier in the tutorial. In a real-world app you’d probably want to make $username private too, and add public methods to read and set the username if necessary.
+
+Using methods
+
+To call an object’s method, you use your old friend, the -> operator:
+
+ 
+$object->methodName()
+This works just like a regular function call. You can pass arguments inside the parentheses (assuming the method can accept arguments), and the method call can also return a value that you can use.
+
+Now that we’ve added some methods to our Member class, let’s try using them:
+
+<?php
+
+class Member
+{
+public $username = "";
+private $loggedIn = false;
+
+public function login() {
+$this->loggedIn = true;
+}
+
+public function logout() {
+$this->loggedIn = false;
+}
+
+public function isLoggedIn() {
+return $this->loggedIn;
+}
+}
+
+$member = new Member();
+$member->username = "Fred";
+echo $member->username . " is " . ( $member->isLoggedIn() ? "logged in" : "logged out" ) . "<br>";
+$member->login();
+echo $member->username . " is " . ( $member->isLoggedIn() ? "logged in" : "logged out" ) . "<br>";
+$member->logout();
+echo $member->username . " is " . ( $member->isLoggedIn() ? "logged in" : "logged out" ) . "<br>";
+
+?>
+
+The above script displays the following:
+
+Fred is logged out
+Fred is logged in
+Fred is logged out
+Here’s how the script works:
+
+After defining the Member class as before, we create a new Member object and store its value in $member. We also set the member’s username to “Fred”.
+We then call $member->isLoggedIn() to determine if the member is currently logged in. isLoggedIn() simply returns the value of the $loggedIn property. Since $loggedIn defaults to false, isLoggedIn() returns false to the calling code, resulting in the message “Fred is logged out”.
+Next we call the $member object’s login() method. This sets the object’s $loggedIn property to true.
+Now, when we call isLoggedIn() again, it returns true, so our code displays “Fred is logged in”.
+We then call the $member object’s logout() method, which sets the $loggedIn property to false.
+Finally, we call isLoggedIn() a third time. This time it returns false, because $loggedIn is set to false again. This causes our code to display “Fred is logged out” once more.
+Note:
+
+In case you’re not familiar with it, the ?: used in the example above is the ternary operator. It’s like a compact version of an if ... else statement.
+
+Another Example:
+
+<?php
+class Dog
+{
+public $hungry = 'I am  hungry.';
+function eat($food)
+{
+$this->hungry = 'not so much.';
+}
+}
+$dog = new Dog;
+echo $dog->hungry."<br>";
+// Result: I am Hungry.
+$dog->eat('cookie');
+echo $dog->hungry;
+//Result: not so much.
+?>
+
+Constructors and destructors
+
+When you create a new object, there are sometimes things that are good to do at the same time. For example, you might want to set some or all of the object’s properties to initial values, or you might want to load the object’s data automatically from a database table.
+
+Likewise, when an object is removed from memory, you might want to do things like removing dependent objects, closing files, or closing database connections.
+
+Note:
+
+How do you remove an object?
+
+PHP automatically removes an object from memory when there are no more variables left that reference the object. For example, if you create a new object and store it in a variable called $myObject, and then remove the variable by calling unset($myObject), the object is also removed from memory. Similarly, if you create $myObject as a local variable in a function, the variable — and therefore the object — are removed when the function exits.
+
+Working with constructors
+
+Constractors
+
+Use a constructor whenever you want to initialize stuff when an object is created. This might include setting properties, opening files, and reading data.
+
+To create a constructor method, simply add a method with the name __construct() to your class (that’s 2 underscores before the word “construct”). PHP then automatically calls this method when an object based on the class is created.
+
+Here’s an example of a constructor:
+
+
+class MyClass {
+public function __construct() {
+echo "I've just been created!";
+}
+}
+
+$myObject = new MyClass();  // Displays "I've just been created!"
+
+MyClass contains a simple constructor that displays a message using echo. The last line of code in the script creates a new object based on MyClass. When this happens, PHP automatically calls the constructor, displaying the message.
+
+Here’s a somewhat more practical use of a constructor — initializing properties:
+
+
+class Member {
+
+private $username;
+private $location;
+private $homepage;
+
+public function __construct( $username, $location, $homepage ) {
+$this->username = $username;
+$this->location = $location;
+$this->homepage = $homepage;
+}
+
+public function showProfile() {
+echo "<dl>";
+echo "<dt>Username:</dt><dd>$this->username</dd>";
+echo "<dt>Location:</dt><dd>$this->location</dd>";
+echo "<dt>Homepage:</dt><dd>$this->homepage</dd>";
+echo "</dl>";
+}
+}
+
+$aMember = new Member( "fred", "Chicago", "http://example.com/" );
+$aMember->showProfile();
+
+When you run the above script, it displays the following:
+
+Username:
+    fred
+Location:
+    Chicago
+Homepage:
+    http://example.com/
+Our Member class contains 3 private properties, and a constructor that accepts 3 arguments — one for each property. The constructor sets the object’s properties to the argument values. The class also contains a showProfile() method that displays the property values using echo.
+
+The script then creates a new Member object, passing 3 values — “fred”, “Chicago”, and “http://example.com/” — to the constructor as it does so. The constructor stores the values in the new object’s properties. Finally, the script calls the object’s showProfile() method to display the stored values.
+
+Practical Example:
+
+
+<?php
+//class.factorial.php
+class Factorial
+{
+private $result = 1;
+private $number;
+function __construct($number)
+{
+$this->number = $number;
+for($i=2; $i<=$number; $i++)
+{
+$this->result*=$i;
+}
+echo "__construct() executed. ";
+}
+function factorial($number)
+{
+$this->number = $number;
+for($i=2; $i<=$number; $i++)
+{
+$this->result*=$i;
+}
+echo "factorial() executed. ";
+}
+public function showResult()
+{
+echo "Factorial of {$this->number} is {$this->result}. ";
+}
+}
+
+$fact = new Factorial(5);
+$fact->showResult();
+
+//Result: __construct() executed. Factorial of 5 is 120
+?>
+
+Working with destructors
+
+
+
+Use a destructor to clean things up when an object is deleted. You might need to save the object to a database, or close open files related to the object.
+
+To create a destructor, add a method called __destruct() to your class. The destructor is called automatically just before the object is deleted.
+
+Here’s a simple example:
+
+
+<?php
+
+class MyClass {
+public function __destruct() {
+echo "I'm about to disappear - bye bye!";
+// (Clean things up here)
+}
+}
+
+$myObject = new MyClass();
+unset( $myObject );       // Displays "I'm about to disappear - bye bye!"
+
+?>
+
+Here, we’ve created a simple destructor that displays a message. We then create a new object from our class, then immediately delete the object by unsetting the variable that points to the object. Just before the object is deleted, PHP calls the destructor, which displays the message in the page.
+
+NOTE:
+
+Unlike constructors, you can’t pass arguments to a destructor.
+
+Destructors are also called just before the script exits, since all objects (and other variables) are deleted when the script stops running.
+
+So this code also triggers the destructor:
+
+
+<?php
+
+class MyClass {
+public function __destruct() {
+echo "I'm about to disappear - bye bye!";
+// (Clean things up here)
+}
+}
+
+$myObject = new MyClass();
+exit;                     // Displays "I'm about to disappear - bye bye!"
+?>
+
+Similarly, if the script stops running due to an error then any destructors will also be called.
+
+Note:
+
+When objects of a child class are created, its parent class’s constructor isn’t automatically called. Only the child’s constructor is called. However, you can explicitly call the parent class’s constructor from within the child’s constructor by writing parent::__construct(). The same is true of destructors — you can call the destructor explicitly using parent:__destruct(). We’ll look at parent and child classes in the next tutorial on inheritance.
+
+Summary
+
+In this tutorial you’ve looked at the basics of object-oriented programming in PHP. You’ve explored the following topics:
+
+The nature of object-oriented programming, and why it’s useful
+The concepts of classes, objects, properties and methods
+How to create classes and objects in PHP
+How to create and use properties in PHP
+The concept of public, private, and protected properties and methods
+How to create and use methods in PHP
+Constructors and destructors, which are useful for initializing and cleaning up objects
+There’s a lot more to PHP object-oriented programming than we’ve covered here, and we’ll be exploring more OOP concepts and techniques in future tutorials. However, if you’ve worked through this tutorial then you now have a good understanding of the fundamental concepts of object-oriented programming in PHP. You’re now well on your way to writing object-oriented PHP applications and websites.
+
+
+Masud Alam
+Hi, My name is Masud Alam, love to work with Open Source Technologies, living in Dhaka, Bangladesh. I graduated in 2009 with a bachelor’s degree in Engineering from State University Of Bangladesh, I’m also a Certified Engineer on ZEND PHP 5.3, I served my first five years a number of leadership positions at Winux Soft Ltd, SSL Wireless Ltd, CIDA and MAX Group where I worked on ERP software and web development., but now i’m a co-founder and Chief Executive Officer and Managing Director of TechBeeo Software Consultancy Services Ltd. I’m also a Course Instructor of ZCPE PHP 7 Certification and professional web development course at w3programmers Training Institute – a leading Training Institute in the country.
+PHP OBJECT ORIENTED PROGRAMMING
+TAGGED ACCESSING PROPERTIES, ADDING METHODS TO A CLASS, CLASSES, HOW TO CREATE CLASSES IN PHP, HOW TO CREATE OBJECTS IN PHP, METHODS, OBJECTS, PRIVATE, PROPERTIES, PROTECTED, PUBLIC, USING METHODS, VISIBILITY, WHAT IS OBJECT-ORIENTED PROGRAMMING?, WHY USE OBJECT-ORIENTED PROGRAMMING?
+Post navigation
+← Previous
+Next →
+19 comments on “PHP Object Oriented Programming Part-1”
+LOUANN LOUGHNEY
+28 JULY, 2012 AT 10:27 AM
+Hmm it seems like your website ate my first comment (it was extremely long) so I guess I’ll just sum it up what I had written and say, I’m thoroughly enjoying your blog. I too am an aspiring blog blogger but I’m still new to the whole thing. Do you have any helpful hints for beginner blog writers? I’d definitely appreciate it.
+REPLY
+ARUN
+24 APRIL, 2013 AT 2:50 PM
+great work… thanks
+REPLY
+SENSEYE
+14 MAY, 2013 AT 8:41 AM
+Great job. Thanks!
+REPLY
+KRISH
+10 SEPTEMBER, 2013 AT 6:11 PM
+Nice but can you upload tutorial showing crud operations as well as login and session in m.v.c. in php ..It willl help thousands of people like me…Thanks again ..
+REPLY
+RASHAD
+9 FEBRUARY, 2014 AT 4:56 PM
+class Member {
+private $username;
+private $location;
+private $homepage;
+
+public function __construct($username, $location, $homepage) {
+$this->username = $username;
+$this->location = $location;
+$this->homepage = $homepage;
+}
+public function showProfile() {
+echo “”;
+echo ‘Username:$this->username’;
+echo “Location:$this->location”;
+echo “HomePage:$this->homepage”;
+echo “”;
+}
+}
+
+$member = new Member( ‘Rashad’, ‘Bangladesh’, ‘http://itsrashad.info’ );
+
+$member->showProfile();
+
+If I use single quote echo in showProfile() function then its giving the output:
+
+Username:
+$this->username
+Location:
+Bangladesh
+HomePage:
+http://itsrashad.info
+REPLY
+SHWETA
+27 FEBRUARY, 2015 AT 11:21 AM
+you have to write echo like this
+
+echo “Username :”.$this->username .””;
+echo “Location :”.$this->location.””;
+echo “HomePage :”.$this->homepage.””;
+REPLY
+RASHAD
+9 FEBRUARY, 2014 AT 6:29 PM
+Sir,
+Without exit; or unset() the below code destroying the object:
+
+number = $number;
+for($i=2; $iresult*=$i;
+}
+}
+function factorial($number) {
+$this->number = $number;
+for($i=2; $iresult*=$i;
+}
+echo “factorial() executed. “;
+}
+public function showResult() {
+echo “Factorial of {$this->number} is {$this->result}. “;
+}
+public function __destruct() {
+echo ‘No, I am going to destroy everything.’;
+}
+}
+$fact = new Factorial(7);
+//unset($fact);
+?>
+
+Sir can you explain little more here abt __destruct()?
+REPLY
+D.EDWARDS
+11 JANUARY, 2017 AT 5:01 PM
+The __destruct will be called as soon as the script exits.
+Therefore no need for the unset() call.
+REPLY
+JULHAS SUJAN
+26 AUGUST, 2014 AT 8:45 AM
+Helpful for beginner……………………thnks
+REPLY
+NITESH YADAV
+16 SEPTEMBER, 2014 AT 2:56 PM
+Thanks sir….!
+REPLY
+JOBAYER
+12 OCTOBER, 2014 AT 7:44 AM
+Great tutorial, thank you.
+REPLY
+BALA
+9 JANUARY, 2015 AT 10:45 AM
+Hi,
+
+I am confused on
+“Rather than passing data around in function calls, you instead load the data you want to work with into an object, and then call the object’s functions to manipulate the object’s data and produce the result you want.”
+
+But after seeing the showProfile() function on “more practical use of a constructor” section, I am cleared and understood the difference between procedural and OOP.
+
+Great Work.. Carry on… 🙂
+REPLY
+ASHISH
+12 AUGUST, 2015 AT 9:49 AM
+Great Tutorials for beginner
+REPLY
+IRFAN PATEL
+26 DECEMBER, 2015 AT 8:53 AM
+I am confused in session and cookie
+REPLY
+HAMID SHARIATI
+17 FEBRUARY, 2016 AT 1:10 PM
+number = $number;
+for($i=2; $iresult*=$i;
+}
+echo “__construct() executed. “;
+}
+function factorial($number)
+{
+$this->number = $number;
+for($i=2; $iresult*=$i;
+}
+echo “factorial() executed. “;
+}
+public function showResult()
+{
+echo “Factorial of {$this->number} is {$this->result}. “;
+}
+}
+
+$fact = new Factorial(5);
+$fact->showResult();
+
+//Result: __construct() executed. Factorial of 5 is 120
+?>
+
+in above code the second loop in factorial function is not necessary. you can test it! remove second loop and refresh. the answer will not change…
+why u use constructer?
+you can use factorial alone…
+REPLY
+LARS EIGHNER
+18 APRIL, 2016 AT 5:51 AM
+OO still seems like complete nonsense to me. I will be looking for scripting languages that are still procedural. I hope I die before there are no procedural languages left.
+REPLY
+JOSHUA
+8 NOVEMBER, 2016 AT 4:19 PM
+Its useful for me
+REPLY
+MD. SIPLU SINHA
+31 DECEMBER, 2016 AT 6:49 AM
+Excellent & helpful article for the people like me who want to start the journey in OOP.
+REPLY
+MOHAMMAD AKBER
+11 JANUARY, 2017 AT 6:51 AM
+what does the keyword $this means.
+Need Explaination
+REPLY
+Leave a Reply
+YOUR EMAIL ADDRESS WILL NOT BE PUBLISHED. REQUIRED FIELDS ARE MARKED *
+
+COMMENT 
+
+NAME * 
+
+EMAIL * 
+
+WEBSITE 
+
+POST COMMENT
+
+Search for:
+Categories
+Android Application Development
+Angular JS
+CakePHP
+CODEIGNITER
+Drupal
+Facebook
+FAT FREE FRAMEWORK
+HTML and CSS
+JAVASCRIPT
+Joomla
+JQUERY and AJAX with PHP
+JSON, XML and Web Services
+Laravel
+Magento
+MySQL Tutorial
+Node.js
+PHP & MySQL Basics
+PHP & MySQL Projects
+PHP Arrays, Strings and Numbers
+PHP Date Time and RegEx
+PHP Design patterns
+PHP File, Mail, Session and Cookie
+PHP Object Oriented Programming
+PHP PDO, MySQLi and SQLITE
+PHP Security and Exceptions
+Python
+SASS and LESS
+Standard PHP Library (SPL)
+Symfony
+Twitter Bootstrap
+Useful PHP Functions and Features
+WordPress
+YII
+Zend Framework 2.x
+APRIL 2017
+S	S	M	T	W	T	F
+« Mar	 	 
+1	2	3	4	5	6	7
+8	9	10	11	12	13	14
+15	16	17	18	19	20	21
+22	23	24	25	26	27	28
+29	30	 
+COPYRIGHT © 2017 W3PROGRAMMERS

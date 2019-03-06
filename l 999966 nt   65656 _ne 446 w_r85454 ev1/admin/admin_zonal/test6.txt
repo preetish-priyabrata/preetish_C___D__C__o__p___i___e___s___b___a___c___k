@@ -1,0 +1,1 @@
+---UPDATE `lt_master_hq_challan_generate` SET `hqcg_receiver_id`='zonal1@ilab.com', `hqcg_receive_date`='2018-03-06', `hqcg_receive_time`='17:36:06', `hqcg_receive_status`='1' WHERE`hqcg_slno`='1'---1---

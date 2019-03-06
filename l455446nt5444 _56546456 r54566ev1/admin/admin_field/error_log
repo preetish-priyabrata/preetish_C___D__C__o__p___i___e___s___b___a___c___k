@@ -1,0 +1,28 @@
+[04-Apr-2018 13:06:08 Asia/Calcutta] PHP Notice:  Use of undefined constant fmrd_slno - assumed 'fmrd_slno' in /home/innovadorslab/public_html/lnt_rev1/admin/admin_field/field_mr_raised_detail.php on line 177
+[04-Apr-2018 13:06:08 Asia/Calcutta] PHP Notice:  Use of undefined constant fmrd_slno - assumed 'fmrd_slno' in /home/innovadorslab/public_html/lnt_rev1/admin/admin_field/field_mr_raised_detail.php on line 177
+[04-Apr-2018 13:06:34 Asia/Calcutta] PHP Notice:  Undefined index: approver_id in /home/innovadorslab/public_html/lnt_rev1/admin/admin_field/field_mr_raised_machine_save.php on line 107
+[04-Apr-2018 13:06:55 Asia/Calcutta] PHP Notice:  Undefined index: approver_id in /home/innovadorslab/public_html/lnt_rev1/admin/admin_field/field_mr_raised_machine_save.php on line 193
+[11-Apr-2018 14:13:27 UTC] PHP Notice:  Undefined index: admin_field in /home/innovadorslab/public_html/lnt_rev1/admin/admin_field/session.php on line 4
+[11-Apr-2018 15:57:33 UTC] PHP Notice:  Undefined index: admin_field in /home/innovadorslab/public_html/lnt_rev1/admin/admin_field/session.php on line 4
+[11-Apr-2018 16:02:27 UTC] PHP Notice:  Undefined index: admin_field in /home/innovadorslab/public_html/lnt_rev1/admin/admin_field/session.php on line 4
+[11-Apr-2018 16:02:27 UTC] PHP Notice:  Undefined index: admin_field in /home/innovadorslab/public_html/lnt_rev1/admin/admin_field/field_stock_present_view.php on line 4
+[11-Apr-2018 17:07:38 UTC] PHP Notice:  Undefined index: admin_field in /home/innovadorslab/public_html/lnt_rev1/admin/admin_field/session.php on line 4
+[11-Apr-2018 17:08:02 UTC] PHP Notice:  Undefined index: admin_field in /home/innovadorslab/public_html/lnt_rev1/admin/admin_field/field_challan_new_issue_receive_history_view.php on line 4
+[11-Apr-2018 17:08:02 UTC] PHP Notice:  Undefined index: admin_field in /home/innovadorslab/public_html/lnt_rev1/admin/admin_field/session.php on line 4
+[26-Apr-2018 09:58:40 Asia/Calcutta] PHP Notice:  Use of undefined constant fmrd_slno - assumed 'fmrd_slno' in /home/innovadorslab/public_html/lnt_rev1/admin/admin_field/field_mr_raised_detail.php on line 177
+[26-Apr-2018 09:58:40 Asia/Calcutta] PHP Notice:  Use of undefined constant fmrd_slno - assumed 'fmrd_slno' in /home/innovadorslab/public_html/lnt_rev1/admin/admin_field/field_mr_raised_detail.php on line 177
+[26-Apr-2018 09:58:40 Asia/Calcutta] PHP Notice:  Use of undefined constant fmrd_slno - assumed 'fmrd_slno' in /home/innovadorslab/public_html/lnt_rev1/admin/admin_field/field_mr_raised_detail.php on line 177
+[26-Apr-2018 09:58:40 Asia/Calcutta] PHP Notice:  Use of undefined constant fmrd_slno - assumed 'fmrd_slno' in /home/innovadorslab/public_html/lnt_rev1/admin/admin_field/field_mr_raised_detail.php on line 177
+[26-Apr-2018 09:59:13 Asia/Calcutta] PHP Notice:  Use of undefined constant fmrd_slno - assumed 'fmrd_slno' in /home/innovadorslab/public_html/lnt_rev1/admin/admin_field/field_mr_raised_detail.php on line 177
+[26-Apr-2018 09:59:13 Asia/Calcutta] PHP Notice:  Use of undefined constant fmrd_slno - assumed 'fmrd_slno' in /home/innovadorslab/public_html/lnt_rev1/admin/admin_field/field_mr_raised_detail.php on line 177
+[26-Apr-2018 09:59:13 Asia/Calcutta] PHP Notice:  Use of undefined constant fmrd_slno - assumed 'fmrd_slno' in /home/innovadorslab/public_html/lnt_rev1/admin/admin_field/field_mr_raised_detail.php on line 177
+[26-Apr-2018 09:59:13 Asia/Calcutta] PHP Notice:  Use of undefined constant fmrd_slno - assumed 'fmrd_slno' in /home/innovadorslab/public_html/lnt_rev1/admin/admin_field/field_mr_raised_detail.php on line 177
+[26-Apr-2018 10:00:02 Asia/Calcutta] PHP Notice:  Undefined index: approver_id in /home/innovadorslab/public_html/lnt_rev1/admin/admin_field/field_mr_raised_machine_save.php on line 107
+[26-Apr-2018 10:00:53 Asia/Calcutta] PHP Notice:  Undefined index: approver_id in /home/innovadorslab/public_html/lnt_rev1/admin/admin_field/field_mr_raised_machine_save.php on line 193
+[26-Apr-2018 10:07:37 Asia/Calcutta] PHP Notice:  Undefined variable: remark_single in /home/innovadorslab/public_html/lnt_rev1/admin/admin_field/field_Challan_new_issue_receive_save.php on line 154
+[26-Apr-2018 10:07:37 Asia/Calcutta] PHP Notice:  Undefined variable: remark_single in /home/innovadorslab/public_html/lnt_rev1/admin/admin_field/field_Challan_new_issue_receive_save.php on line 154
+[26-Apr-2018 10:07:37 Asia/Calcutta] PHP Notice:  Undefined variable: remark_single in /home/innovadorslab/public_html/lnt_rev1/admin/admin_field/field_Challan_new_issue_receive_save.php on line 154
+[26-Apr-2018 10:07:37 Asia/Calcutta] PHP Notice:  Undefined variable: remark_single in /home/innovadorslab/public_html/lnt_rev1/admin/admin_field/field_Challan_new_issue_receive_save.php on line 154
+[26-Apr-2018 16:21:55 Asia/Calcutta] PHP Notice:  Use of undefined constant fmrd_slno - assumed 'fmrd_slno' in /home/innovadorslab/public_html/lnt_rev1/admin/admin_field/field_mr_raised_detail.php on line 177
+[26-Apr-2018 16:22:08 Asia/Calcutta] PHP Notice:  Undefined index: approver_id in /home/innovadorslab/public_html/lnt_rev1/admin/admin_field/field_mr_raised_machine_save.php on line 107
+[26-Apr-2018 16:23:04 Asia/Calcutta] PHP Notice:  Undefined index: approver_id in /home/innovadorslab/public_html/lnt_rev1/admin/admin_field/field_mr_raised_machine_save.php on line 193

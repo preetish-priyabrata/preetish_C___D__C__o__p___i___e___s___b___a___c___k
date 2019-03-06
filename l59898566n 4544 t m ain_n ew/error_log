@@ -1,0 +1,8 @@
+[21-Sep-2018 06:32:28 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/innovadorslab/public_html/lntmain_new/config.php on line 10
+[21-Sep-2018 06:32:28 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/innovadorslab/public_html/lntmain_new/config.php on line 12
+[21-Sep-2018 06:32:28 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/innovadorslab/public_html/lntmain_new/login_process.php on line 11
+[21-Sep-2018 06:32:28 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/innovadorslab/public_html/lntmain_new/login_process.php on line 12
+[21-Sep-2018 06:32:28 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/innovadorslab/public_html/lntmain_new/login_process.php on line 17
+[21-Sep-2018 06:32:28 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/innovadorslab/public_html/lntmain_new/login_process.php on line 18
+[21-Sep-2018 06:32:28 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/innovadorslab/public_html/lntmain_new/login_process.php on line 22
+[21-Sep-2018 06:32:28 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/innovadorslab/public_html/lntmain_new/login_process.php on line 23

@@ -1,0 +1,193 @@
+[06-Jul-2014 00:39:44] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'teerth'@'localhost' (using password: NO) in /home/teerth/public_html/class/DbConnection.php on line 16
+[06-Jul-2014 00:39:44] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/College.php on line 87
+[06-Jul-2014 00:39:44] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/College.php on line 88
+[06-Jul-2014 00:39:44] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/login.php on line 37
+[06-Jul-2014 01:01:31] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'campo'@'localhost' (using password: NO) in /home/teerth/public_html/class/DbConnection.php on line 16
+[06-Jul-2014 01:01:31] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/College.php on line 87
+[06-Jul-2014 01:01:31] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/College.php on line 88
+[06-Jul-2014 01:01:31] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/login.php on line 37
+[06-Jul-2014 01:02:49] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'campo'@'localhost' (using password: NO) in /home/teerth/public_html/class/DbConnection.php on line 16
+[06-Jul-2014 01:02:49] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 97
+[06-Jul-2014 01:02:49] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 98
+[06-Jul-2014 01:02:49] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/login.php on line 25
+[06-Jul-2014 01:04:28] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'ftp.teerth.in'@'localhost' (using password: NO) in /home/teerth/public_html/class/DbConnection.php on line 16
+[06-Jul-2014 01:04:28] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 97
+[06-Jul-2014 01:04:28] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 98
+[06-Jul-2014 01:04:28] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/login.php on line 25
+[06-Jul-2014 01:05:29] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'teerth'@'localhost' (using password: NO) in /home/teerth/public_html/class/DbConnection.php on line 16
+[06-Jul-2014 01:05:29] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 97
+[06-Jul-2014 01:05:29] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 98
+[06-Jul-2014 01:05:29] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/login.php on line 25
+[06-Jul-2014 01:05:49] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'teerth'@'localhost' (using password: NO) in /home/teerth/public_html/class/DbConnection.php on line 16
+[06-Jul-2014 01:05:49] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 97
+[06-Jul-2014 01:05:49] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 98
+[06-Jul-2014 01:05:49] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/login.php on line 25
+[06-Jul-2014 01:06:37] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'teerth_dnayak'@'localhost' (using password: NO) in /home/teerth/public_html/class/DbConnection.php on line 16
+[06-Jul-2014 01:06:37] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 97
+[06-Jul-2014 01:06:37] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 98
+[06-Jul-2014 01:06:37] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/login.php on line 25
+[06-Jul-2014 01:06:52] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'teerth_dnayak'@'localhost' (using password: NO) in /home/teerth/public_html/class/DbConnection.php on line 16
+[06-Jul-2014 01:06:52] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 97
+[06-Jul-2014 01:06:52] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 98
+[06-Jul-2014 01:06:52] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/login.php on line 25
+[06-Jul-2014 01:10:01] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'teerth_test'@'localhost' (using password: NO) in /home/teerth/public_html/class/DbConnection.php on line 16
+[06-Jul-2014 01:10:01] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 97
+[06-Jul-2014 01:10:01] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 98
+[06-Jul-2014 01:10:01] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/login.php on line 25
+[06-Jul-2014 01:10:24] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'teerth_test'@'localhost' (using password: NO) in /home/teerth/public_html/class/DbConnection.php on line 16
+[06-Jul-2014 01:10:24] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 97
+[06-Jul-2014 01:10:24] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 98
+[06-Jul-2014 01:10:24] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/login.php on line 25
+[06-Jul-2014 01:11:33] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'teerth_cons'@'localhost' (using password: NO) in /home/teerth/public_html/class/DbConnection.php on line 16
+[06-Jul-2014 01:11:33] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 97
+[06-Jul-2014 01:11:33] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 98
+[06-Jul-2014 01:11:33] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/login.php on line 25
+[06-Jul-2014 01:11:39] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'teerth_cons'@'localhost' (using password: NO) in /home/teerth/public_html/class/DbConnection.php on line 16
+[06-Jul-2014 01:11:39] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 97
+[06-Jul-2014 01:11:39] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 98
+[06-Jul-2014 01:11:39] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/login.php on line 25
+[06-Jul-2014 01:14:33] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'teerth_test'@'localhost' (using password: NO) in /home/teerth/public_html/class/DbConnection.php on line 16
+[06-Jul-2014 01:14:33] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/College.php on line 87
+[06-Jul-2014 01:14:33] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/College.php on line 88
+[06-Jul-2014 01:14:33] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/login.php on line 37
+[06-Jul-2014 01:16:55] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'teerth_test'@'192.185.119.50' (using password: NO) in /home/teerth/public_html/class/DbConnection.php on line 16
+[06-Jul-2014 01:16:55] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 97
+[06-Jul-2014 01:16:55] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 98
+[06-Jul-2014 01:16:55] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/login.php on line 25
+[06-Jul-2014 01:16:58] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'teerth_test'@'192.185.119.50' (using password: NO) in /home/teerth/public_html/class/DbConnection.php on line 16
+[06-Jul-2014 01:16:58] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 97
+[06-Jul-2014 01:16:58] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 98
+[06-Jul-2014 01:16:58] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/login.php on line 25
+[06-Jul-2014 01:21:33] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'teerth_test'@'192.185.119.50' (using password: NO) in /home/teerth/public_html/class/DbConnection.php on line 16
+[06-Jul-2014 01:21:33] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/College.php on line 87
+[06-Jul-2014 01:21:33] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/College.php on line 88
+[06-Jul-2014 01:21:33] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/login.php on line 37
+[06-Jul-2014 01:45:49] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'teerth_test'@'192.185.119.50' (using password: YES) in /home/teerth/public_html/class/DbConnection.php on line 16
+[06-Jul-2014 01:45:49] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 97
+[06-Jul-2014 01:45:49] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 98
+[06-Jul-2014 01:45:49] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/login.php on line 25
+[06-Jul-2014 01:46:13] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'teerth'@'192.185.119.50' (using password: YES) in /home/teerth/public_html/class/DbConnection.php on line 16
+[06-Jul-2014 01:46:13] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 97
+[06-Jul-2014 01:46:13] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 98
+[06-Jul-2014 01:46:13] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/login.php on line 25
+[06-Jul-2014 01:46:59] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/teerth/public_html/login.php:8) in /home/teerth/public_html/login.php on line 40
+[06-Jul-2014 01:46:59] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/teerth/public_html/login.php:8) in /home/teerth/public_html/login.php on line 42
+[06-Jul-2014 01:47:00] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/teerth/public_html/login.php:8) in /home/teerth/public_html/login.php on line 28
+[06-Jul-2014 01:47:00] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/teerth/public_html/login.php:8) in /home/teerth/public_html/login.php on line 28
+[06-Jul-2014 01:47:00] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/teerth/public_html/login.php:8) in /home/teerth/public_html/login.php on line 30
+[06-Jul-2014 01:47:47] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'teerth_test'@'localhost' (using password: YES) in /home/teerth/public_html/class/DbConnection.php on line 16
+[06-Jul-2014 01:47:47] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 97
+[06-Jul-2014 01:47:47] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 98
+[06-Jul-2014 01:47:47] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/login.php on line 25
+[06-Jul-2014 01:47:59] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'teerth_test'@'localhost' (using password: YES) in /home/teerth/public_html/class/DbConnection.php on line 16
+[06-Jul-2014 01:47:59] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 97
+[06-Jul-2014 01:47:59] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 98
+[06-Jul-2014 01:47:59] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/login.php on line 25
+[06-Jul-2014 01:54:24] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'teerth'@'localhost' (using password: YES) in /home/teerth/public_html/class/DbConnection.php on line 16
+[06-Jul-2014 01:54:24] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 97
+[06-Jul-2014 01:54:24] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 98
+[06-Jul-2014 01:54:24] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/login.php on line 25
+[06-Jul-2014 01:54:40] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'teerth_test'@'localhost' (using password: YES) in /home/teerth/public_html/class/DbConnection.php on line 16
+[06-Jul-2014 01:54:40] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 97
+[06-Jul-2014 01:54:40] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 98
+[06-Jul-2014 01:54:40] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/login.php on line 25
+[06-Jul-2014 01:54:44] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'teerth_test'@'localhost' (using password: YES) in /home/teerth/public_html/class/DbConnection.php on line 16
+[06-Jul-2014 01:54:44] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 97
+[06-Jul-2014 01:54:44] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 98
+[06-Jul-2014 01:54:44] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/login.php on line 25
+[06-Jul-2014 01:55:48] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'teerth_cons'@'192.185.119.50' (using password: YES) in /home/teerth/public_html/class/DbConnection.php on line 16
+[06-Jul-2014 01:55:48] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 97
+[06-Jul-2014 01:55:48] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 98
+[06-Jul-2014 01:55:48] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/login.php on line 25
+[06-Jul-2014 01:56:03] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'teerth_cons'@'localhost' (using password: YES) in /home/teerth/public_html/class/DbConnection.php on line 16
+[06-Jul-2014 01:56:03] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 97
+[06-Jul-2014 01:56:03] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 98
+[06-Jul-2014 01:56:03] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/login.php on line 25
+[06-Jul-2014 01:56:09] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'teerth_cons'@'localhost' (using password: YES) in /home/teerth/public_html/class/DbConnection.php on line 16
+[06-Jul-2014 01:56:09] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 97
+[06-Jul-2014 01:56:09] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 98
+[06-Jul-2014 01:56:09] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/login.php on line 25
+[06-Jul-2014 01:56:48] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'teerth_cons'@'localhost' (using password: YES) in /home/teerth/public_html/class/DbConnection.php on line 16
+[06-Jul-2014 01:56:48] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 97
+[06-Jul-2014 01:56:48] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 98
+[06-Jul-2014 01:56:48] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/login.php on line 25
+[06-Jul-2014 01:56:52] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'teerth_cons'@'localhost' (using password: YES) in /home/teerth/public_html/class/DbConnection.php on line 16
+[06-Jul-2014 01:56:52] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 97
+[06-Jul-2014 01:56:52] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 98
+[06-Jul-2014 01:56:52] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/login.php on line 25
+[06-Jul-2014 01:58:02] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'teerth_cons'@'localhost' (using password: YES) in /home/teerth/public_html/class/DbConnection.php on line 16
+[06-Jul-2014 01:58:02] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 97
+[06-Jul-2014 01:58:02] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 98
+[06-Jul-2014 01:58:02] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/login.php on line 25
+[06-Jul-2014 01:58:05] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'teerth_cons'@'localhost' (using password: YES) in /home/teerth/public_html/class/DbConnection.php on line 16
+[06-Jul-2014 01:58:05] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 97
+[06-Jul-2014 01:58:05] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 98
+[06-Jul-2014 01:58:05] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/login.php on line 25
+[06-Jul-2014 02:12:50] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'teerth'@'localhost' (using password: YES) in /home/teerth/public_html/class/DbConnection.php on line 16
+[06-Jul-2014 02:12:50] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 97
+[06-Jul-2014 02:12:50] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 98
+[06-Jul-2014 02:12:50] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/login.php on line 25
+[06-Jul-2014 02:25:22] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'teerth_admin'@'localhost' (using password: YES) in /home/teerth/public_html/class/DbConnection.php on line 16
+[06-Jul-2014 02:25:22] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 97
+[06-Jul-2014 02:25:22] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 98
+[06-Jul-2014 02:25:22] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/login.php on line 25
+[06-Jul-2014 02:33:26] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/teerth/public_html/login.php:8) in /home/teerth/public_html/login.php on line 28
+[06-Jul-2014 02:33:26] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/teerth/public_html/login.php:8) in /home/teerth/public_html/login.php on line 28
+[06-Jul-2014 02:33:26] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/teerth/public_html/login.php:8) in /home/teerth/public_html/login.php on line 30
+[06-Jul-2014 02:40:14] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/teerth/public_html/logIn_2.php:11) in /home/teerth/public_html/logIn_2.php on line 21
+[06-Jul-2014 02:40:14] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/teerth/public_html/logIn_2.php:11) in /home/teerth/public_html/logIn_2.php on line 21
+[06-Jul-2014 02:40:14] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/teerth/public_html/logIn_2.php:11) in /home/teerth/public_html/logIn_2.php on line 23
+[06-Jul-2014 02:41:29] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/teerth/public_html/login.php:12) in /home/teerth/public_html/login.php on line 24
+[06-Jul-2014 02:43:00] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/teerth/public_html/login.php:12) in /home/teerth/public_html/login.php on line 24
+[06-Jul-2014 02:43:51] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/teerth/public_html/login.php:11) in /home/teerth/public_html/login.php on line 12
+[06-Jul-2014 02:43:51] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/teerth/public_html/login.php:11) in /home/teerth/public_html/login.php on line 24
+[06-Jul-2014 06:07:22] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/teerth/public_html/login.php:11) in /home/teerth/public_html/login.php on line 21
+[06-Jul-2014 06:07:22] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/teerth/public_html/login.php:11) in /home/teerth/public_html/login.php on line 21
+[06-Jul-2014 06:07:22] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/teerth/public_html/login.php:11) in /home/teerth/public_html/login.php on line 23
+[06-Jul-2014 06:09:51] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/teerth/public_html/login.php:11) in /home/teerth/public_html/login.php on line 21
+[06-Jul-2014 06:09:51] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/teerth/public_html/login.php:11) in /home/teerth/public_html/login.php on line 21
+[06-Jul-2014 06:09:51] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/teerth/public_html/login.php:11) in /home/teerth/public_html/login.php on line 23
+[06-Jul-2014 06:11:54] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/teerth/public_html/login.php:11) in /home/teerth/public_html/login.php on line 21
+[06-Jul-2014 06:11:54] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/teerth/public_html/login.php:11) in /home/teerth/public_html/login.php on line 21
+[06-Jul-2014 06:11:54] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/teerth/public_html/login.php:11) in /home/teerth/public_html/login.php on line 23
+[06-Jul-2014 06:16:11] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/teerth/public_html/login.php:11) in /home/teerth/public_html/login.php on line 21
+[06-Jul-2014 06:16:11] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/teerth/public_html/login.php:11) in /home/teerth/public_html/login.php on line 23
+[06-Jul-2014 06:17:27] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/teerth/public_html/login.php:11) in /home/teerth/public_html/login.php on line 23
+[05-Aug-2014 12:29:09] PHP Fatal error:  Call to undefined method User::validateUserLogon() in /home/teerth/public_html/login_new.php on line 84
+[05-Aug-2014 12:34:06] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/teerth/public_html/class/DbConnection.php on line 16
+[05-Aug-2014 12:34:06] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 388
+[05-Aug-2014 12:34:06] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 389
+[12-Sep-2014 01:44:42] PHP Fatal error:  Call to undefined method User::fetchUserRegNo() in /home/teerth/public_html/candidateregistration.php on line 398
+[24-Oct-2014 02:59:12] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/teerth/public_html/class/DbConnection.php on line 16
+[24-Oct-2014 02:59:12] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 394
+[24-Oct-2014 02:59:12] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/User.php on line 395
+[05-Dec-2014 07:10:38] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/class/Message.php on line 33
+[05-Dec-2014 07:10:42] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/class/Message.php on line 33
+[05-Dec-2014 07:11:58] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/class/Message.php on line 33
+[05-Dec-2014 07:12:06] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/class/Message.php on line 33
+[05-Dec-2014 07:13:11] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/class/Message.php on line 33
+[05-Dec-2014 07:13:23] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/class/Message.php on line 33
+[05-Dec-2014 07:17:39] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/class/Message.php on line 33
+[05-Dec-2014 07:17:45] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/class/Message.php on line 33
+[05-Dec-2014 07:17:50] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/class/Message.php on line 33
+[05-Dec-2014 07:17:50] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/class/Message.php on line 33
+[05-Dec-2014 07:17:59] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/class/Message.php on line 33
+[05-Dec-2014 07:18:05] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/class/Message.php on line 33
+[05-Dec-2014 07:18:05] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/class/Message.php on line 33
+[05-Dec-2014 07:18:08] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/class/Message.php on line 33
+[05-Dec-2014 07:18:11] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/teerth/public_html/class/Message.php on line 33
+[09-Mar-2015 10:05:33] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (08004/1040): Too many connections in /home/teerth/public_html/class/DbConnection.php on line 17
+[09-Mar-2015 10:05:33] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/Message.php on line 32
+[09-Mar-2015 10:05:33] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/teerth/public_html/class/Message.php on line 33
+[09-Mar-2015 10:05:33] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (HY000/1040): Too many connections in /home/teerth/public_html/class/DbConnection.php on line 17
+[09-Mar-2015 10:05:33] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/Message.php on line 32
+[09-Mar-2015 10:05:33] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/teerth/public_html/class/Message.php on line 33
+[09-Mar-2015 10:06:17] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (08004/1040): Too many connections in /home/teerth/public_html/class/DbConnection.php on line 17
+[09-Mar-2015 10:06:17] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/Message.php on line 32
+[09-Mar-2015 10:06:17] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/teerth/public_html/class/Message.php on line 33
+[02-Jul-2016 12:24:00] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (08004/1040): Too many connections in /home/teerth/public_html/class/DbConnection.php on line 17
+[02-Jul-2016 12:24:01] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/Message.php on line 32
+[02-Jul-2016 12:24:01] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/teerth/public_html/class/Message.php on line 33
+[22-Feb-2018 17:56:16] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (08004/1040): Too many connections in /home/teerth/public_html/class/DbConnection.php on line 17
+[22-Feb-2018 17:56:16] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/teerth/public_html/class/Message.php on line 32
+[22-Feb-2018 17:56:16] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/teerth/public_html/class/Message.php on line 33

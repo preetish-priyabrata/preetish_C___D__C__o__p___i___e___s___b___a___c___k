@@ -1,0 +1,21 @@
+html, body {
+    height: 100%;
+    overflow: hidden;
+    overflow-y:hidden;
+    overflow-x:hidden;
+}
+body {
+     padding-bottom: 0; 
+}
+/*.m-b-15 {
+    margin-bottom: -87px;
+}*/
+.m-b-15 {
+    margin-bottom: 0;
+}
+.wrapper-page {
+    margin: 7.5% auto;
+    max-width: 460px;
+    position: relative;
+    z-index: 999;
+}

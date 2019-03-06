@@ -1,0 +1,479 @@
+<?php
+// print_r($_REQUEST);
+// exit;
+// Array ( [challen] => chal_791238 [indent] => ind001 ) 
+session_start();
+ob_start();
+if($_SESSION['admin_emails']){
+$indent_id=$_GET['indent'];
+require 'FlashMessages.php';
+include 'config.php';
+ $msg = new \Preetish\FlashMessages\FlashMessages();
+  $place_id=$_SESSION['place_id'];
+  $query_get_place="SELECT * FROM `rhc_master_place_district` WHERE `place_district_id`='$place_id'";
+  $sql_exe_get_place=mysqli_query($conn,$query_get_place);
+  $get_place_fetch_detail=mysqli_fetch_assoc($sql_exe_get_place);
+
+  $query_list="SELECT * FROM `rhc_master_dh_block_indent` WHERE `indent_place_raised_to`='$place_id' and `indent_id`='$indent_id' and `status`!='2'";
+  $sql_exe_list=mysqli_query($conn,$query_list);
+   $num_rows_check=mysqli_num_rows($sql_exe_list);
+  if($num_rows_check==0){
+    $msg->warning('Back Is not Possible ');      
+    header('Location:admin_dashboard.php');
+    exit;
+  }
+  $result_list=mysqli_fetch_assoc($sql_exe_list);
+   if($result_list['place_status']=='1'){
+    $receiver_id=$result_list['indent_place_raised_by'];
+    $get_block="SELECT * FROM `rhc_master_place_block` WHERE `place_block_id`='$receiver_id'";
+    $sql_exec_block=mysqli_query($conn,$get_block);
+    $block_fetch_detail=mysqli_fetch_assoc($sql_exec_block);
+    $place_full_name=strtoupper($block_fetch_detail['block_name']).'['.$block_fetch_detail['place_block_id'].']';
+    }else{
+      if($result_list['place_status']=='2'){
+        $receiver_id=$result_list['indent_place_raised_by'];
+        $get_dh="SELECT * FROM `rhc_master_place_dh` WHERE `place_hostpital_id`='$receiver_id'";
+        $sql_exec_dh=mysqli_query($conn,$get_dh);
+        $dh_fetch_detail=mysqli_fetch_assoc($sql_exec_dh);
+        $place_full_name=strtoupper($dh_fetch_detail['hosptial_name']).'['.$dh_fetch_detail['place_hostpital_id'].']';
+      }else{
+        $receiver_id=$result_list['indent_place_raised_by'];
+        $get_uphc="SELECT * FROM `rhc_master_place_uphc` WHERE `place_uphc_id`='$receiver_id'";
+        $sql_exec_uphc=mysqli_query($conn,$get_uphc);
+        $uphc_fetch_detail=mysqli_fetch_assoc($sql_exec_uphc);
+        $place_full_name=strtoupper($uphc_fetch_detail['uphc_name']).'['.$uphc_fetch_detail['place_uphc_id'].']';
+      }
+    }
+                   
+  
+  
+  $date=date('d-m-Y');
+  $time=date('h:i:s a');
+  $date1=date('Y-m-d');
+  $time1=date('H:i:s');
+ 
+  
+$challen=$_REQUEST['challen'];
+
+$query_challan="SELECT * FROM `rhc_master_dh_block_challan_no` WHERE `challen_no`='$challen'";
+$sql_exe_challan=mysqli_query($conn,$query_challan);
+$result_fetch_challen =mysqli_fetch_assoc($sql_exe_challan);       
+            
+?>
+<style type="text/css">
+    
+    .center {
+    text-align: center;
+    /*border: 3px solid green;*/
+}
+.row .row, .row-fluid .row-fluid {
+    margin-bottom: 6px;
+}
+@media print{
+    table td.shrink {
+      white-space:nowrap
+  }
+  table td.expand {
+      width: 99%
+  }
+  .clearfix:after {
+    clear: both;
+}
+}
+  </style>
+  <style>
+.panel-body {
+    background-color: white;
+}
+#wrapper_menu {
+  margin-bottom: -66px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #7eacd4;
+    border-color: #357ebd;
+    border-radius: 5px;
+    padding: 5px;
+}
+.panel-primary > .panel-heading {
+    color: #fff;
+    background-color: #15c011;
+    border-color: #428bca;
+}
+#candidate_list {
+    margin-left: 21px;
+    margin-right: 16px;
+}
+.btn-primarys {
+    color: #fff;
+    background-color: #16e08e;
+    border-color: #1c7510;
+    border-radius: 5px;
+    padding: 5px;
+}
+fieldset {
+    display: block;
+    -webkit-margin-start: 2px;
+    -webkit-margin-end: 2px;
+    -webkit-padding-before: 0.35em;
+    -webkit-padding-start: 0.75em;
+    -webkit-padding-end: 0.75em;
+    -webkit-padding-after: 0.625em;
+    min-width: -webkit-min-content;
+    border-width: 2px;
+    border-style: groove;
+    border-color: threedface;
+    border-image: initial;
+}
+legend {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: inherit;
+    color: #333;
+    border: 0;
+    }
+   
+</style>
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+      <h1>
+        Issue Of Commodities
+        <mdall></mdall>
+      </h1>
+      <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li><a href="#"> Receive </a></li>
+        <li class="active"><a href="#">Received Indent Detail</a></li>
+        <!-- <li class="active">Blank page</li> -->
+      </ol>
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="text-center">
+      <?php $msg->display(); ?>
+    </div>
+    <div class="row">
+    <div class="col-md-12">
+      <!-- end message displayed -->
+      <div class="panel panel-default">
+        <div class="panel-heading text-center" style="background-color: lightpink;"><strong>Challan </strong></div>
+        <div class="demo">
+          <div class="panel-body">
+            <form class="form-inline" action="admin_issue_indent_save_print_send.php" method="POST" >
+        <div  id="printarea">
+  		<div id="section-to-print">
+            <div class="col-md-12">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="email">Date :</label>                 
+                    <?=$date1=date('d-m-Y',strtotime(trim($result_fetch_challen['date_creation'])));?>  
+                  <input type="hidden" class="form-control" name="date" value="<?=$date1?>" > 
+                </div>
+              </div>
+              <div class="col-md-6">
+              <div class="form-group ">
+                <label for="pwd">Time :</label>
+                
+                <?=$time1=date('h:i:s a',strtotime(trim($result_fetch_challen['time_creation'])));?>
+                <input type="hidden" class="form-control" name="time" value="<?=$time1?>"> 
+              </div> 
+              </div> 
+              <div class="col-md-6">
+              <div class="form-group">
+                <label for="email">Challan No :</label>
+                 <?=$challen?>
+                 <input type="hidden" name="challen_no" value="<?=$challen?>">
+                <!-- <input type="email" class="form-control" id="email"> -->
+              </div>
+              </div>  
+              <div class="col-md-6">
+              <div class="form-group">
+                <label for="email">Indent No :</label>
+                  <?=$result_list['indent_id'];?>
+                <input type="hidden" class="form-control" name="indent_id" value="<?=$result_list['indent_id'];?>">
+              </div>
+              </div> 
+              
+              <div class="col-md-6">      
+              <div class="form-group">
+                <label for="email">Indent Location :</label>
+                <input type="hidden" name="receiver_id" value="<?=$receiver_id?>">
+                <?=$place_full_name?>
+                <!-- <input type="email" class="form-control" id="email" value="Maner" readonly=""> -->
+              </div>
+              </div>
+              <div class="col-md-6">
+               <div class="form-group">
+                <label for="email">Issue Location :</label>
+                <input type="hidden" name="issuer_id" id="issuer_id" value="<?=$place_id?>">
+               	<?=$get_place_fetch_detail['district_name']?>[<?=$place_id?>]
+                <!-- <input type="email" class="form-control" id="email" value="Maner" readonly=""> -->
+              </div>
+              </div>
+            </div>
+              
+ 
+    
+              <table id="myTable" class="table table-striped text-center" align="center" border="1" width="100%">
+              <thead align="center">
+              <tr>
+                <th>Slno</th>
+                <th>Item Code</th>
+                <th>Type</th>
+                <th>Qty Indented</th>
+                 <th>Qty Issued</th>
+                <th>Batch Details</th>
+              </tr>
+              </thead>
+              <tbody align="center">
+                  <?php 
+                  $x=1;
+                $query_list_item="SELECT * FROM `rhc_master_dh_block_item_details_challan_no` WHERE `challan_no`='$challen'";
+                $sql_exe_list_item=mysqli_query($conn,$query_list_item);
+
+                while ($res_item=mysqli_fetch_assoc($sql_exe_list_item)) {?>
+                <tr>
+                    <td><?=$x?></td>
+                    <td><?=$res_item['item_code']?>
+                      <!-- <input type="hidden" name="item_code[]" id="item_code<?=$x?>" value="<?=$res_item['item_code']?>"> -->
+                    </td>
+                    <td><?=$res_item['item_type']?>
+                      <!-- <input type="hidden" name="Item_type[]" id="Item_type<?=$x?>" value="<?=$res_item['Item_type']?>"> -->
+                    </td>
+                    <td><?=$res_item['quantity_indent']?>
+                      <!-- <input type="hidden" name="item_quantity[]" id="item_quantity<?=$x?>" value="<?=$res_item['item_quantity']?>"> -->
+                    </td>
+                    <td>
+                    	<?=$res_item['quantity_issued']?>
+                   
+                    </td>
+                    <td>
+                    	<table class="table table-striped" border="1" width="100%">
+                    		<thead>
+                    			<tr>
+                    				<th>Batch No</th>
+                    				<th>Qty</th>
+                    				<th>Date Exp</th>
+                    			</tr>
+                    		</thead>
+                    		<tbody>
+                    		<?php 
+                    		$item_batch_id=$res_item['item_batch_id'];
+                    			$query_batch_details="SELECT * FROM `rhc_master_dh_block_receive_batch_detail_item` WHERE `item_batch_id`='$item_batch_id'";
+
+                    			$sql_exe_batch_deatils=mysqli_query($conn,$query_batch_details);
+                    			$num_rows_batch=mysqli_num_rows($sql_exe_batch_deatils);
+                    			if($num_rows_batch!=0){
+                    				while ($result_batch=mysqli_fetch_assoc($sql_exe_batch_deatils)) {?>
+	                    			<tr>
+		                    			<td><?=$result_batch['batch_no']?></td>
+		                    			<td><?=$result_batch['batch_quantity']?></td>
+		                    			<td><?=$result_batch['date_expire']?></td>
+
+	                    			</tr>
+	                    		<?php }
+
+	                    		}else{ ?>
+	                    		<tr>
+		                    			<td>N/A</td>
+		                    			<td>N/A</td>
+		                    			<td>N/A</td>
+
+	                    			</tr>
+
+	                    		<?php }
+	                    		?>
+                    		</tbody>
+                    	</table>
+                   
+                    </td>
+                </tr>
+                <?php $x++ ; }?>
+              </tbody>
+            </table>
+            
+
+        </div>
+        </div>                   
+            <a href="admin_receive_indent.php"  class="btn btn-default">Back</a>
+            <input type="button" class="btn-primary pull-right" style="background-color:#39F; color:#000;"  value="Print" onclick="PrintDoc()"/> 
+           <button type="submit" class="btn btn-default pull-right">Confirm</button>
+          </form>
+        </div>
+      </div>
+      </div>
+      </div>
+<!--       <div class="col-md-5">
+        <div class="panel panel-default">
+          <div class="panel-heading text-center" style="background-color: palevioletred;"><strong>Item Batch Details</strong></div>
+          <div class="panel-body">
+            <table class="table table-striped" >
+              <tr>
+                <th>Item Code</th>
+                <th>Type</th>
+                <th>Batch No</th>
+                <th>Qty</th>
+                <th>Date Of Exp.</th>
+              </tr>
+              <tbody id="details">
+                
+              </tbody>
+
+            </table>
+          </div>
+        </div>
+
+      </div> -->
+    <!-- </div> -->
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+
+<?php
+
+}else{
+  header('Location:logout.php');
+  exit;
+}
+$contents = ob_get_contents();
+ob_clean();
+include 'templates/template.php';
+
+?>
+<script type="text/javascript">
+//   $(document).on("keypress", "form", function(event) { 
+//     return event.keyCode != 13;
+// });
+</script> 
+<script type="text/javascript">
+function get_batch(id) {
+  var itemcodes=$('#item_code'+id).val();
+  var itemtypes=$('#Item_type'+id).val();
+  var place_ids=$('#issuer_id').val();
+  // var item_quantity=$('#item_quantity'+id).val();
+   var item_quantity=document.getElementById("item_quantity"+id).value;
+  var qnt_issue=document.getElementById("qnt_issue"+id).value;
+  // var qnt_issue=$('#qnt_issue'+id).val();
+  // alert((parseInt(qnt_issue)>parseInt(item_quantity)));
+  if(qnt_issue!=""){
+    if(parseInt(qnt_issue)>parseInt(item_quantity)){
+      
+      document.getElementById("error"+id).innerHTML = "Please Insert a value less  Than or equalto ("+item_quantity+")";
+    }else{
+       document.getElementById("error"+id).innerHTML = "";
+       $.ajax({
+                type:'POST',
+                url:'admin_get_item_batch_details_district.php',
+                data:{itemtypes:itemtypes,itemcodes:itemcodes,place_id:place_ids,qnt_issue:qnt_issue},
+                success:function(html){  
+                  if(html){
+                  $('#details').html(html);
+                  get_quantity(id)
+                  // alert(md);
+                 
+                   }
+                    // if(html){
+                    //     document.getElementById("myerror"+id).innerHTML = "";
+                    //     return false;
+                    //     // $("#reli").submit(); 
+                    // }else{
+                    //     document.getElementById("myerror"+id).innerHTML = "Class Is Present In Our Records ,"+class_name;
+                    //     return false;
+                    // }
+                }
+            });
+   
+     
+    }
+  }else{
+     document.getElementById("error"+id).innerHTML = "It should not left Blank ";
+  }
+}
+function get_quantity(id) {
+   var itemcodes=$('#item_code'+id).val();
+  var itemtypes=$('#Item_type'+id).val();
+  var place_ids=$('#issuer_id').val();
+  var item_quantitys=$('#item_quantity'+id).val();
+  var qnt_issues=$('#qnt_issue'+id).val();
+  // alert(qnt_issue);
+  if(qnt_issues!=""){
+    if(parseInt(item_quantitys)>=parseInt(qnt_issues)){
+      document.getElementById("error"+id).innerHTML = "";
+       $.ajax({
+                type:'POST',
+                url:'admin_get_item_batch_details_districts.php',
+                data:{itemtypes:itemtypes,itemcodes:itemcodes,place_id:place_ids,qnt_issue:qnt_issues},
+                success:function(html){  
+                  if(html){
+                  // $('#details').html(html);
+                  $('#qnt_issue'+id).val(html);
+                  // alert(md);
+                 
+                   }
+                   
+                }
+            });
+        }else{
+      document.getElementById("error"+id).innerHTML = "Please Insert a value less  Than or equalto ("+item_quantity+")";
+     
+    }
+  }else{
+     document.getElementById("error"+id).innerHTML = "It should not left Blank ";
+  }
+}
+</script>
+
+ <script type="text/javascript">
+function close_window() {
+  if (confirm("Close Window?")) {
+    close();
+  }
+}
+/*--This JavaScript method for Print command--*/
+
+    function PrintDoc() {
+     
+        var toPrint = document.getElementById('printarea');
+
+        var popupWin = window.open('', '_blank', 'width=550,height=450,location=no,left=200px');
+
+        popupWin.document.open();
+
+        popupWin.document.write('<html><title>::<?=date('d-m-y')?>::</title><link rel="stylesheet" type="text/css" href="assert_FRONT/print.css" /><link href="assert_FRONT/dist/css/bootstrap.min.css" rel="stylesheet" /></head><body onload="window.print()">')
+
+        popupWin.document.write(toPrint.innerHTML);
+
+        popupWin.document.write('</html>');
+
+        popupWin.document.close();
+
+    }
+
+/*--This JavaScript method for Print Preview command--*/
+
+    function PrintPreview() {
+
+        var toPrint = document.getElementById('printarea');
+
+        var popupWin = window.open('', '_blank', 'width=350,height=150,location=no,left=200px');
+
+        popupWin.document.open();
+
+        popupWin.document.write('<html><title>::Print Preview::</title><link rel="stylesheet" type="text/css" href="assert_FRONT/print.css" /><link href="assert_FRONT/dist/css/bootstrap.min.css" rel="stylesheet" /></head><body">')
+
+        popupWin.document.write(toPrint.innerHTML);
+
+        popupWin.document.write('</html>');
+
+        popupWin.document.close();
+
+    }
+
+
+</script>

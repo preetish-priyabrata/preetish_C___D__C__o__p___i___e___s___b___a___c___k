@@ -1,0 +1,2 @@
+[05-Apr-2018 07:22:17 UTC] PHP Notice:  Undefined index: email_id in /home/innovadorslab/public_html/lnt_rev1/login_process.php on line 11
+[05-Apr-2018 07:22:17 UTC] PHP Notice:  Undefined index: pass_word in /home/innovadorslab/public_html/lnt_rev1/login_process.php on line 12

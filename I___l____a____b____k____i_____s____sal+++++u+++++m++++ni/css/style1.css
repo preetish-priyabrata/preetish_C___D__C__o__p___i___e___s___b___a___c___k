@@ -1,0 +1,166 @@
+/*Typography=========================== */
+html,body {
+    width:100%;
+    height: auto;
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    font-size:14px;
+    line-height:24px;
+    color:#6f6f6f;
+}
+/*menu*/
+	#tabs31{
+		position:relative;
+		display:block;
+		height:39px;
+		font-size:11px;
+		font-weight:bold;
+		background:transparent url(../images/bgOFF1.gif) repeat-x top left;
+		font-family:Arial,Verdana,Helvitica,sans-serif;
+		border-top:4px solid #B30000;
+	}
+	#tabs31 ul{
+		margin:0;
+		padding:0;list-style-type:none;
+		width:auto;
+	}
+	#tabs31 ul li{
+		display:block;
+		float:left;
+		margin:0;
+	}
+	#tabs31 ul li a{
+		display:block;
+		float:left;
+		color:#666;
+		text-decoration:none;
+		padding:11px 20px 0 20px;
+		height:23px;
+		background:transparent url(../images/bgDIVIDER1.gif) no-repeat top right;
+	}
+	#tabs31 ul li a:hover,#tabs31 ul li a.current{
+		color:#B30000;
+		background:#fff url(../images/bgON1.gif) no-repeat top right;
+	}
+
+/*header*/
+
+#wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+#headerwrap {
+    width: 1000px;
+    float: left;
+    margin: 0 auto;
+}
+
+#header {
+    height: 122px;
+    background: #FF6633;
+    border-radius: 10px;
+    border: 1px solid #eb521f;
+    margin: 5px;
+}
+
+/*navagation*/
+#navigationwrap {
+    width: 1000px;
+    float: left;
+    margin: 0 auto;
+}
+
+#navigation {
+    height: 40px;
+    background: #FFCC33;
+    border-radius: 10px;
+    border: 1px solid #ebb81f;
+    /*margin: 5px;*/
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { 
+	
+		/*navagation*/
+	#navigationwrap {
+	    width: 768px;
+	   
+	}
+	#navigation {
+	    height: 40px;
+	    background: #FFCC33;
+	    border-radius: 10px;
+	    border: 1px solid #ebb81f;
+	    margin: 5px;
+	}
+		/*header*/
+
+	#wrapper {
+	   
+	    width: 668px;
+	}
+
+	#headerwrap {
+	    width: 768px;
+	   
+	}
+
+	#header {
+	    height: 122px;
+	    background: #FF6633;
+	    border-radius: 10px;
+	    border: 1px solid #eb521f;
+	  
+	}
+
+
+
+ }
+
+ /* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { 
+		/*navagation*/
+	#navigationwrap {
+	    width: 992px;
+	   
+	}
+	
+	#wrapper {
+	  
+	    width: 992px;
+	}
+
+	#headerwrap {
+	    width: 992px;
+	 
+	}
+
+	
+}
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { 
+			/*navagation*/
+	#navigationwrap {
+	    width: 1200px;
+	    
+	}
+	
+	#wrapper {
+	   
+	    width: 1200px;
+	}
+
+	#headerwrap {
+	    width: 1200px;
+	   
+	}
+
+	
+
+ }

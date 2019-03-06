@@ -1,0 +1,138 @@
+[09-Dec-2017 17:48:57 Asia/Calcutta] PHP Notice:  Undefined index: approver_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_mr_raised_machine_save.php on line 90
+[09-Dec-2017 12:23:47 UTC] PHP Notice:  Undefined index: admin_field in /home/innovadorslab/public_html/lntdemo/admin/admin_field/index.php on line 5
+[09-Dec-2017 12:24:20 UTC] PHP Notice:  Undefined index: admin_field in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_stock_challan_return_save.php on line 4
+[09-Dec-2017 12:24:34 UTC] PHP Notice:  Undefined index: admin_field in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_mr_create_job.php on line 4
+[09-Dec-2017 17:54:40 Asia/Calcutta] PHP Notice:  Undefined variable: fetch_item in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_stock_present_view.php on line 82
+[09-Dec-2017 17:54:40 Asia/Calcutta] PHP Notice:  Undefined variable: fetch_item in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_stock_present_view.php on line 82
+[09-Dec-2017 17:54:40 Asia/Calcutta] PHP Notice:  Undefined variable: fetch_item in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_stock_present_view.php on line 82
+[09-Dec-2017 17:54:40 Asia/Calcutta] PHP Notice:  Undefined variable: fetch_item in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_stock_present_view.php on line 82
+[09-Dec-2017 12:24:41 UTC] PHP Notice:  Undefined index: admin_field in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_stock_present_view.php on line 4
+[09-Dec-2017 17:55:26 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[09-Dec-2017 17:55:50 Asia/Calcutta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_issue_maintenance_job_complete_view.php on line 69
+[12-Dec-2017 19:04:07 Asia/Calcutta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_issue_maintenance_job_complete_view.php on line 69
+[12-Dec-2017 13:40:01 UTC] PHP Notice:  Undefined index: admin_field in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_mr_send_view.php on line 4
+[12-Dec-2017 13:49:58 UTC] PHP Notice:  Undefined index: admin_field in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_mr_create_job.php on line 4
+[12-Dec-2017 13:51:47 UTC] PHP Notice:  Undefined index: admin_field in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_mr_create_job_view.php on line 4
+[12-Dec-2017 19:25:01 Asia/Calcutta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_issue_maintenance_job_complete_view.php on line 69
+[12-Dec-2017 13:55:02 UTC] PHP Notice:  Undefined index: admin_field in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_issue_maintenance_job_complete_view.php on line 4
+[14-Dec-2017 14:06:45 Asia/Calcutta] PHP Notice:  Undefined index: approver_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_mr_raised_machine_save.php on line 90
+[14-Dec-2017 14:20:25 Asia/Calcutta] PHP Notice:  Undefined index: approver_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_mr_raised_machine_save.php on line 90
+[14-Dec-2017 15:11:31 Asia/Calcutta] PHP Notice:  Undefined index: approver_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_mr_raised_machine_save.php on line 90
+[01-Jan-2018 15:29:37 UTC] PHP Notice:  Undefined index: admin_field in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_Challan_new_issue_receive_save.php on line 3
+[01-Jan-2018 15:31:01 UTC] PHP Notice:  Undefined index: admin_field in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_challan_new_issue_receive_history.php on line 4
+[01-Jan-2018 15:53:27 UTC] PHP Notice:  Undefined index: admin_field in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_mr_create_job_machine.php on line 6
+[01-Jan-2018 21:25:17 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[01-Jan-2018 21:25:20 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[01-Jan-2018 21:25:21 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[01-Jan-2018 15:56:40 UTC] PHP Notice:  Undefined index: admin_field in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_mr_create_job_machine_save.php on line 3
+[01-Jan-2018 15:56:40 UTC] PHP Notice:  Undefined index: admin_field in /home/innovadorslab/public_html/lntdemo/admin/admin_field/index.php on line 5
+[01-Jan-2018 16:06:40 UTC] PHP Notice:  Undefined index: admin_field in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_issue_maintenance_job_view.php on line 4
+[01-Jan-2018 21:40:00 Asia/Calcutta] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_issue_maintenance_job_view_update.php on line 20
+[01-Jan-2018 21:40:00 Asia/Calcutta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_issue_maintenance_job_view_update.php on line 22
+[01-Jan-2018 21:40:00 Asia/Calcutta] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_issue_maintenance_job_view_update.php on line 35
+[01-Jan-2018 21:40:27 Asia/Calcutta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_issue_maintenance_job_complete_view.php on line 69
+[01-Jan-2018 21:40:57 Asia/Calcutta] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_issue_maintenance_job_view_update.php on line 20
+[01-Jan-2018 21:40:57 Asia/Calcutta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_issue_maintenance_job_view_update.php on line 22
+[01-Jan-2018 21:40:57 Asia/Calcutta] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_issue_maintenance_job_view_update.php on line 35
+[01-Jan-2018 21:41:06 Asia/Calcutta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_issue_maintenance_job_complete_view.php on line 69
+[06-Jan-2018 14:40:07 UTC] PHP Notice:  Undefined index: admin_field in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_mr_create_job_machine.php on line 6
+[06-Jan-2018 20:10:19 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[06-Jan-2018 20:10:41 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[06-Jan-2018 20:10:44 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[06-Jan-2018 20:10:45 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[06-Jan-2018 20:10:46 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[06-Jan-2018 20:10:48 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[06-Jan-2018 20:10:51 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[06-Jan-2018 20:11:19 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[06-Jan-2018 20:11:26 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[06-Jan-2018 20:11:30 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[06-Jan-2018 20:11:33 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[06-Jan-2018 20:11:36 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[06-Jan-2018 20:11:37 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[06-Jan-2018 20:11:44 Asia/Calcutta] PHP Notice:  Undefined variable: fetch_item in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_stock_present_view.php on line 82
+[06-Jan-2018 20:20:20 Asia/Calcutta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_issue_maintenance_job_complete_view.php on line 69
+[06-Jan-2018 20:20:52 Asia/Calcutta] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_issue_maintenance_job_view_update.php on line 20
+[06-Jan-2018 20:20:52 Asia/Calcutta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_issue_maintenance_job_view_update.php on line 22
+[06-Jan-2018 20:20:52 Asia/Calcutta] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_issue_maintenance_job_view_update.php on line 35
+[06-Jan-2018 20:21:03 Asia/Calcutta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_issue_maintenance_job_complete_view.php on line 69
+[08-Jan-2018 18:04:39 Asia/Calcutta] PHP Notice:  Undefined index: approver_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_mr_raised_machine_save.php on line 99
+[08-Jan-2018 18:06:02 Asia/Calcutta] PHP Notice:  Undefined index: approver_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_mr_raised_machine_save.php on line 99
+[08-Jan-2018 18:27:35 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[08-Jan-2018 18:27:49 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[08-Jan-2018 18:27:56 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[08-Jan-2018 18:28:02 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[08-Jan-2018 18:45:59 Asia/Calcutta] PHP Notice:  Undefined variable: fetch_item in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_stock_present_view.php on line 82
+[08-Jan-2018 18:49:02 Asia/Calcutta] PHP Notice:  Undefined variable: fetch_item in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_stock_present_view.php on line 82
+[08-Jan-2018 18:50:26 Asia/Calcutta] PHP Notice:  Undefined variable: fetch_item in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_stock_present_view.php on line 82
+[08-Jan-2018 18:50:26 Asia/Calcutta] PHP Notice:  Undefined variable: fetch_item in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_stock_present_view.php on line 82
+[08-Jan-2018 18:50:26 Asia/Calcutta] PHP Notice:  Undefined variable: fetch_item in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_stock_present_view.php on line 82
+[08-Jan-2018 18:53:50 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[08-Jan-2018 18:53:50 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[08-Jan-2018 18:53:51 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[08-Jan-2018 18:53:51 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[08-Jan-2018 18:53:55 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[08-Jan-2018 18:53:55 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[08-Jan-2018 18:55:46 Asia/Calcutta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_issue_maintenance_job_complete_view.php on line 69
+[08-Jan-2018 18:56:06 Asia/Calcutta] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_issue_maintenance_job_view_update.php on line 20
+[08-Jan-2018 18:56:06 Asia/Calcutta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_issue_maintenance_job_view_update.php on line 22
+[08-Jan-2018 18:56:06 Asia/Calcutta] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_issue_maintenance_job_view_update.php on line 35
+[08-Jan-2018 18:56:35 Asia/Calcutta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_issue_maintenance_job_complete_view.php on line 69
+[08-Jan-2018 18:57:02 Asia/Calcutta] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_issue_maintenance_job_view_update.php on line 20
+[08-Jan-2018 18:57:02 Asia/Calcutta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_issue_maintenance_job_view_update.php on line 22
+[08-Jan-2018 18:57:02 Asia/Calcutta] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_issue_maintenance_job_view_update.php on line 35
+[08-Jan-2018 18:57:17 Asia/Calcutta] PHP Notice:  Undefined variable: fetch_item in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_stock_present_view.php on line 82
+[08-Jan-2018 18:57:17 Asia/Calcutta] PHP Notice:  Undefined variable: fetch_item in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_stock_present_view.php on line 82
+[08-Jan-2018 18:57:17 Asia/Calcutta] PHP Notice:  Undefined variable: fetch_item in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_stock_present_view.php on line 82
+[08-Jan-2018 19:04:59 Asia/Calcutta] PHP Notice:  Undefined index: approver_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_mr_raised_machine_save.php on line 99
+[30-Jan-2018 14:59:19 Asia/Calcutta] PHP Notice:  Undefined index: approver_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_mr_raised_machine_save.php on line 99
+[30-Jan-2018 15:08:57 Asia/Calcutta] PHP Notice:  Undefined variable: fetch_item in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_stock_present_view.php on line 82
+[30-Jan-2018 15:08:57 Asia/Calcutta] PHP Notice:  Undefined variable: fetch_item in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_stock_present_view.php on line 82
+[30-Jan-2018 15:08:57 Asia/Calcutta] PHP Notice:  Undefined variable: fetch_item in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_stock_present_view.php on line 82
+[30-Jan-2018 15:12:43 Asia/Calcutta] PHP Notice:  Undefined variable: fetch_item in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_stock_present_view.php on line 82
+[30-Jan-2018 15:12:43 Asia/Calcutta] PHP Notice:  Undefined variable: fetch_item in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_stock_present_view.php on line 82
+[30-Jan-2018 15:12:43 Asia/Calcutta] PHP Notice:  Undefined variable: fetch_item in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_stock_present_view.php on line 82
+[30-Jan-2018 15:12:43 Asia/Calcutta] PHP Notice:  Undefined variable: fetch_item in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_stock_present_view.php on line 82
+[30-Jan-2018 15:12:43 Asia/Calcutta] PHP Notice:  Undefined variable: fetch_item in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_stock_present_view.php on line 82
+[30-Jan-2018 15:12:43 Asia/Calcutta] PHP Notice:  Undefined variable: fetch_item in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_stock_present_view.php on line 82
+[30-Jan-2018 15:12:43 Asia/Calcutta] PHP Notice:  Undefined variable: fetch_item in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_stock_present_view.php on line 82
+[30-Jan-2018 15:15:15 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[30-Jan-2018 15:15:15 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[30-Jan-2018 15:15:16 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[30-Jan-2018 15:15:16 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[30-Jan-2018 15:15:26 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[30-Jan-2018 15:15:26 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[30-Jan-2018 15:15:52 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[30-Jan-2018 15:15:52 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[30-Jan-2018 15:15:53 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[30-Jan-2018 15:15:53 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[30-Jan-2018 15:15:53 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[30-Jan-2018 15:15:53 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[30-Jan-2018 15:15:53 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[30-Jan-2018 15:15:53 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[30-Jan-2018 15:15:53 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[30-Jan-2018 15:16:27 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[30-Jan-2018 15:16:27 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[30-Jan-2018 15:16:27 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[30-Jan-2018 15:16:27 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[30-Jan-2018 15:16:27 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[30-Jan-2018 15:16:27 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[30-Jan-2018 15:16:27 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[30-Jan-2018 15:16:43 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[30-Jan-2018 15:16:43 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[30-Jan-2018 15:17:06 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[30-Jan-2018 15:17:06 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[30-Jan-2018 15:17:20 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[30-Jan-2018 15:17:20 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[30-Jan-2018 15:17:21 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[30-Jan-2018 15:17:21 Asia/Calcutta] PHP Notice:  Undefined index: item_category_id in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_get_detail_list_auto.php on line 17
+[30-Jan-2018 15:18:40 Asia/Calcutta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_issue_maintenance_job_complete_view.php on line 69
+[30-Jan-2018 15:19:21 Asia/Calcutta] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_issue_maintenance_job_view_update.php on line 20
+[30-Jan-2018 15:19:21 Asia/Calcutta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_issue_maintenance_job_view_update.php on line 22
+[30-Jan-2018 15:19:21 Asia/Calcutta] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_issue_maintenance_job_view_update.php on line 35
+[30-Jan-2018 15:19:28 Asia/Calcutta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_issue_maintenance_job_complete_view.php on line 69
+[08-Feb-2018 15:57:15 UTC] PHP Notice:  Undefined index: admin_field in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_mr_raised_machine.php on line 6
+[21-Feb-2018 12:13:22 UTC] PHP Notice:  Undefined index: admin_field in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_mr_create_job.php on line 4
+[21-Feb-2018 17:50:47 Asia/Calcutta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_issue_maintenance_job_complete_view.php on line 59
+[22-Feb-2018 10:28:27 Asia/Calcutta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_issue_maintenance_job_complete_view.php on line 59
+[22-Feb-2018 10:30:03 Asia/Calcutta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_issue_maintenance_job_complete_view.php on line 59
+[22-Feb-2018 10:33:03 Asia/Calcutta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/innovadorslab/public_html/lntdemo/admin/admin_field/field_issue_maintenance_job_complete_view.php on line 59

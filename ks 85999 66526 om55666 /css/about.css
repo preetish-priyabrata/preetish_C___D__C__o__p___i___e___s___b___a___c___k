@@ -1,0 +1,65 @@
+.clear::before, .clear::after, .site::before, .site::after, .entry-content::before, .entry-content::after, .comment-content::before, .comment-content::after, .site-content::before, .site-content::after, .nav-links::before, .nav-links::after, .comment-navigation::before, .comment-navigation::after, .social-navigation ul::before, .social-navigation ul::after, .textwidget::before, .textwidget::after {
+    content: "";
+    display: table;
+}
+.content-wrapper {
+    overflow: hidden;
+}
+.content-wrapper {
+    width: 100%;
+    float: left;
+}
+.entry-summary, .page-content, .post-content, .comment-content {
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    word-wrap: break-word;
+}
+.entry-summary h1, .page-content h1, .post-content h1, .comment-content h1 {
+    font-size: 26px;
+    font-size: 2.6rem;
+    line-height: 1.1538;
+    margin-top: 1.8462em;
+    margin-bottom: 0.9231em;
+}
+.entry-title {
+    line-height: normal;
+    margin: 0 0 14px 0;
+        margin-top: 0px;
+        margin-bottom: 14px;
+    border-bottom: 1px solid #e5e7e8;
+    padding-bottom: 6px;
+}
+h1, h2, h3, h4, h5, h6 {
+    clear: both;
+    font-weight: 500;
+    color: #484848;
+    font-family: "Montserrat-Regular";
+}
+.hentry > :last-child {
+    margin-bottom: 0;
+}
+.page-content-body p, .page-content-body ul, .page-content-body ol, .page-content-body dl {
+    font-size: 14px;
+}
+p {
+    margin-bottom: 1.6em;
+    line-height: 1.6;
+    font-size: 14px;
+    font-family: "Montserrat-Light";
+}
+blockquote.alignleft, .wp-caption.alignleft, img.alignleft {
+    margin: 0.4em 1.6em 1.6em 0;
+}
+.alignleft {
+    display: inline;
+    float: left;
+}
+img {
+    -ms-interpolation-mode: bicubic;
+    border: 0;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}

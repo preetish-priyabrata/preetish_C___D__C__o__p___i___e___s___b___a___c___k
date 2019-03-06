@@ -1,0 +1,59 @@
+<?php
+session_start();
+if($_SESSION['admin_emails']){
+	require 'FlashMessages.php';
+	require 'config.php';
+ 	$msg = new \Preetish\FlashMessages\FlashMessages();
+// print_r($_REQUEST);
+// exit;
+// Array ( [slno] => 1 [batch_store_id] => stockHSC-RAM1 [batch_no] => k2 [total_item] => 158 [total] => 158 [quanity] => 153 [quanity_OLD] => 158 [remark] => 893 [challan_no] => ) 
+// 
+// 
+$slno=$_POST['slno'];
+$batch_store_id=$_POST['batch_store_id'];
+$batch_no=$_POST['batch_no'];
+$total=$_POST['total'];
+$quanity=$_POST['quanity'];
+$quanity_OLD=$_POST['quanity_OLD'];
+$total_item=$_POST['total_item'];
+$remark=$_POST['remark'];
+
+$total_batch=$total-$quanity_OLD+$quanity;
+$total_cal_item=$total_item-$total+$total_batch;
+	// stock item in current item
+	if($total_cal_item==0){
+		$state_update="UPDATE `rhc_master_stock_phc_subcenter_items` SET `item_quantity`='$total_cal_item',`status`='0' WHERE`phc_sub_stock_batch_id`='$batch_store_id'";
+		 $sql_exe=mysqli_query($conn,$state_update);
+	}else{
+		if($total_cal_item>0){
+			$state_update="UPDATE `rhc_master_stock_phc_subcenter_items` SET `item_quantity`='$total_cal_item',`status`='1' WHERE `phc_sub_stock_batch_id`='$batch_store_id'";
+			 $sql_exe=mysqli_query($conn,$state_update);
+		}else{
+			$msg->error('Negative value can not be updated in current item');
+		}
+	}
+	// stock item batch no in current batch
+	if($total_batch==0){
+		echo $state_batch="UPDATE `rhc_master_stock_phc_subcenter_batch_details` SET `total_quantity`='$total_batch',`remaining_quantity`='$quanity',`status`='0',`remark`='$remark' WHERE `phc_sub_stock_batch_id`='$batch_store_id' and `slno`='$slno'";
+		 $sql_exe_batch=mysqli_query($conn,$state_batch);
+	}else{
+		if($total_batch>0){
+			echo $state_batch="UPDATE `rhc_master_stock_phc_subcenter_batch_details` SET `total_quantity`='$total_batch',`remaining_quantity`='$quanity',`status`='1',`remark`='$remark' WHERE `phc_sub_stock_batch_id`='$batch_store_id' and `slno`='$slno'";
+			 $sql_exe_batch=mysqli_query($conn,$state_batch);
+		}else{
+			$msg->error('Negative value can not be updated in current batch');		
+		}
+	}
+	
+	if($sql_exe_batch && $sql_exe){
+		$msg->success('Stock update in Current Stock');
+		header('Location:admin_avaliable_stock_view.php');
+		exit;
+	}else{
+		header('Location:admin_dashboard.php');
+		exit;
+	}
+}else{
+	header('Location:logout.php');
+  	exit;
+}
