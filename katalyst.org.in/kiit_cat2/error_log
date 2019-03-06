@@ -1,0 +1,2 @@
+[07-Oct-2017 16:20:38 Asia/Calcutta] PHP Notice:  Undefined index: email_id in /home/innovadorslab/public_html/kiit_cat2/login_process.php on line 11
+[07-Oct-2017 16:20:38 Asia/Calcutta] PHP Notice:  Undefined index: pass_word in /home/innovadorslab/public_html/kiit_cat2/login_process.php on line 12
