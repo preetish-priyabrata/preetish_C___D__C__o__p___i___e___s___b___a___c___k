@@ -1,0 +1,43 @@
+[20-Aug-2018 10:17:12 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/innovadorslab/public_html/i-lab_survey/login/config.php on line 10
+[20-Aug-2018 10:17:12 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/innovadorslab/public_html/i-lab_survey/login/config.php on line 12
+[20-Aug-2018 10:17:12 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/innovadorslab/public_html/i-lab_survey/login/login_process.php on line 51
+[20-Aug-2018 10:17:12 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/innovadorslab/public_html/i-lab_survey/login/login_process.php on line 61
+[20-Aug-2018 10:17:12 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/innovadorslab/public_html/i-lab_survey/login/login_process.php on line 62
+[20-Aug-2018 10:17:12 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/innovadorslab/public_html/i-lab_survey/login/login_process.php on line 65
+[20-Aug-2018 10:17:12 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/innovadorslab/public_html/i-lab_survey/login/login_process.php on line 66
+[20-Aug-2018 10:17:28 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/innovadorslab/public_html/i-lab_survey/login/config.php on line 10
+[20-Aug-2018 10:17:28 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/innovadorslab/public_html/i-lab_survey/login/config.php on line 12
+[20-Aug-2018 10:17:28 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/innovadorslab/public_html/i-lab_survey/login/login_process.php on line 51
+[20-Aug-2018 10:17:28 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/innovadorslab/public_html/i-lab_survey/login/login_process.php on line 61
+[20-Aug-2018 10:17:28 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/innovadorslab/public_html/i-lab_survey/login/login_process.php on line 62
+[20-Aug-2018 10:17:28 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/innovadorslab/public_html/i-lab_survey/login/login_process.php on line 65
+[20-Aug-2018 10:17:28 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/innovadorslab/public_html/i-lab_survey/login/login_process.php on line 66
+[20-Aug-2018 10:17:46 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/innovadorslab/public_html/i-lab_survey/login/config.php on line 10
+[20-Aug-2018 10:17:46 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/innovadorslab/public_html/i-lab_survey/login/config.php on line 12
+[20-Aug-2018 10:17:46 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/innovadorslab/public_html/i-lab_survey/login/login_process.php on line 51
+[20-Aug-2018 10:17:46 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/innovadorslab/public_html/i-lab_survey/login/login_process.php on line 61
+[20-Aug-2018 10:17:46 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/innovadorslab/public_html/i-lab_survey/login/login_process.php on line 62
+[20-Aug-2018 10:17:46 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/innovadorslab/public_html/i-lab_survey/login/login_process.php on line 65
+[20-Aug-2018 10:17:46 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/innovadorslab/public_html/i-lab_survey/login/login_process.php on line 66
+[20-Aug-2018 10:24:19 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/innovadorslab/public_html/i-lab_survey/login/config.php on line 10
+[20-Aug-2018 10:24:19 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/innovadorslab/public_html/i-lab_survey/login/config.php on line 12
+[20-Aug-2018 10:24:19 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/innovadorslab/public_html/i-lab_survey/login/login_process.php on line 51
+[20-Aug-2018 10:24:19 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/innovadorslab/public_html/i-lab_survey/login/login_process.php on line 61
+[20-Aug-2018 10:24:19 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/innovadorslab/public_html/i-lab_survey/login/login_process.php on line 62
+[20-Aug-2018 10:24:19 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/innovadorslab/public_html/i-lab_survey/login/login_process.php on line 65
+[20-Aug-2018 10:24:19 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/innovadorslab/public_html/i-lab_survey/login/login_process.php on line 66
+[20-Aug-2018 10:25:59 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/innovadorslab/public_html/i-lab_survey/login/config.php on line 10
+[20-Aug-2018 10:25:59 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/innovadorslab/public_html/i-lab_survey/login/config.php on line 12
+[20-Aug-2018 10:25:59 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/innovadorslab/public_html/i-lab_survey/login/login_process.php on line 51
+[20-Aug-2018 10:25:59 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/innovadorslab/public_html/i-lab_survey/login/login_process.php on line 61
+[20-Aug-2018 10:25:59 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/innovadorslab/public_html/i-lab_survey/login/login_process.php on line 62
+[20-Aug-2018 10:25:59 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/innovadorslab/public_html/i-lab_survey/login/login_process.php on line 65
+[20-Aug-2018 10:25:59 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/innovadorslab/public_html/i-lab_survey/login/login_process.php on line 66
+[22-Aug-2018 06:58:42 UTC] PHP Notice:  Undefined index: cama_email in /home/innovadorslab/public_html/i-lab_survey/login/login_process.php on line 181
+[22-Aug-2018 06:58:42 UTC] PHP Notice:  Undefined index: user_level in /home/innovadorslab/public_html/i-lab_survey/login/login_process.php on line 196
+[22-Aug-2018 13:01:56 UTC] PHP Notice:  Undefined index: cama_email in /home/innovadorslab/public_html/i-lab_survey/login/login_process.php on line 181
+[22-Aug-2018 13:01:56 UTC] PHP Notice:  Undefined index: user_level in /home/innovadorslab/public_html/i-lab_survey/login/login_process.php on line 196
+[22-Aug-2018 13:06:33 UTC] PHP Notice:  Undefined index: cama_email in /home/innovadorslab/public_html/i-lab_survey/login/login_process.php on line 181
+[22-Aug-2018 13:06:33 UTC] PHP Notice:  Undefined index: user_level in /home/innovadorslab/public_html/i-lab_survey/login/login_process.php on line 196
+[22-Aug-2018 13:08:26 UTC] PHP Notice:  Undefined index: cama_email in /home/innovadorslab/public_html/i-lab_survey/login/login_process.php on line 181
+[22-Aug-2018 13:08:26 UTC] PHP Notice:  Undefined index: user_level in /home/innovadorslab/public_html/i-lab_survey/login/login_process.php on line 196

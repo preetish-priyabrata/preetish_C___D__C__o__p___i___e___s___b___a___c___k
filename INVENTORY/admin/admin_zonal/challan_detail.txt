@@ -1,0 +1,1 @@
+---SELECT * FROM `lt_master_field_material_requsition` WHERE `fmr_unqiue_mr_id`='field001_field_00_1'------SELECT * FROM `lt_master_field_material_requsition` WHERE `fmr_unqiue_mr_id`='field001_field_00_1'------SELECT * FROM `lt_master_field_material_requsition` WHERE `fmr_unqiue_mr_id`='field001_field_00_1'---

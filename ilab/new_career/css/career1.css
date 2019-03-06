@@ -1,0 +1,174 @@
+/*
+Fade content bs-carousel with hero headers
+Code snippet by maridlcrmn (Follow me on Twitter @maridlcrmn) for Bootsnipp.com
+Image credits: unsplash.com
+*/
+
+/********************************/
+/*       Fade Bs-carousel       */
+/********************************/
+.fade-carousel {
+    position: relative;
+    height: 100vh;
+}
+.fade-carousel .carousel-inner .item {
+    height: 100vh;
+}
+.fade-carousel .carousel-indicators > li {
+    margin: 0 2px;
+    background-color: #f39c12;
+    border-color: #f39c12;
+    opacity: .7;
+}
+.fade-carousel .carousel-indicators > li.active {
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+}
+
+/********************************/
+/*          Hero Headers        */
+/********************************/
+.hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+      -webkit-transform: translate3d(-50%,-50%,0);
+         -moz-transform: translate3d(-50%,-50%,0);
+          -ms-transform: translate3d(-50%,-50%,0);
+           -o-transform: translate3d(-50%,-50%,0);
+              transform: translate3d(-50%,-50%,0);
+}
+.hero h1 {
+    color: orange;
+    font-size: 6em;    
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+.hero h2{
+  color: orange;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.fade-carousel .carousel-inner .item .hero {
+    opacity: 0;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s; 
+        -ms-transition: 2s all ease-in-out .1s; 
+         -o-transition: 2s all ease-in-out .1s; 
+            transition: 2s all ease-in-out .1s; 
+}
+.fade-carousel .carousel-inner .item.active .hero {
+    opacity: 1;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s; 
+        -ms-transition: 2s all ease-in-out .1s; 
+         -o-transition: 2s all ease-in-out .1s; 
+            transition: 2s all ease-in-out .1s;    
+}
+
+/********************************/
+/*            Overlay           */
+/********************************/
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    /*background-color: #080d15;*/
+    opacity: .7;
+}
+
+/********************************/
+/*          Custom Buttons      */
+/********************************/
+.btn.btn-lg {padding: 10px 40px;}
+.btn.btn-hero,
+.btn.btn-hero:hover,
+.btn.btn-hero:focus {
+    color: #f5f5f5;
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+    outline: none;
+    margin: 20px auto;
+}
+
+/********************************/
+/*       Slides backgrounds     */
+/********************************/
+.fade-carousel .slides .slide-1, 
+.fade-carousel .slides .slide-2,
+.fade-carousel .slides .slide-3,
+.fade-carousel .slides .slide-4 ,
+.fade-carousel .slides .slide-5 ,
+.fade-carousel .slides .slide-6 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.fade-carousel .slides .slide-1 {
+  background-image: url(../../img/career/1.jpg); 
+}
+.fade-carousel .slides .slide-2 {
+  background-image: url(../../img/career/2.jpg);
+}
+.fade-carousel .slides .slide-3 {
+  background-image: url(../../img/career/3.jpg);
+}
+.fade-carousel .slides .slide-4 {
+  background-image: url(../../img/career/4.png);
+}
+.fade-carousel .slides .slide-5 {
+  background-image: url(../../img/career/5.png);
+}
+.fade-carousel .slides .slide-6 {
+  background-image: url(../../img/career/6.jpg);
+}
+/********************************/
+/*          Media Queries       */
+/********************************/
+@media screen and (min-width: 980px){
+    .hero { width: 980px; }    
+}
+@media screen and (max-width: 640px){
+    .hero h1 { font-size: 4em; }    
+}
+
+/*gradiant1*/
+#grad1 {
+    height: 50px;
+    background: -webkit-linear-gradient(right, #006400, #b3ed79); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #006400, #b3ed79); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #006400, #b3ed79); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #006400 , #b3ed79); /* Standard syntax (must be last)  #b3ed79*/
+}
+
+
+div#section1 {
+    margin-top: -20px;
+}
+/*#grad1 {
+    height: 50px;
+    background: -webkit-linear-gradient(right, rgba(255,0,0,0), rgba(255,0,0,1)); 
+    background: -o-linear-gradient(right, rgba(255,0,0,0), rgba(255,0,0,1)); 
+    background: -moz-linear-gradient(left, rgba(255,0,0,0), rgba(255,0,0,1)); 
+    background: linear-gradient(to left, rgba(255,0,0,0), rgba(255,0,0,1));
+}*/
+.iamcoming {
+background-color: #525252;
+background-image: -moz-linear-gradient(top, #444444, #666666);
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#444444), to(#666666));
+background-image: -webkit-linear-gradient(top, #444444, #666666);
+background-image: -o-linear-gradient(top, #444444, #666666);
+background-image: linear-gradient(to bottom, #444444, #666666);
+background-repeat: repeat-x;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff444444', endColorstr='#ff666666', GradientType=0);
+}  

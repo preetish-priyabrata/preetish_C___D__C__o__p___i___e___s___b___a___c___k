@@ -1,0 +1,193 @@
+[20-Aug-2018 15:58:34 Asia/Calcutta] PHP Notice:  Undefined index: title in /home/innovadorslab/public_html/i-lab_survey/report_user/template/template.php on line 6
+[20-Aug-2018 15:58:34 Asia/Calcutta] PHP Notice:  Undefined index: admin_name in /home/innovadorslab/public_html/i-lab_survey/report_user/template/side_menu.php on line 31
+[20-Aug-2018 15:58:47 Asia/Calcutta] PHP Notice:  Undefined index: title in /home/innovadorslab/public_html/i-lab_survey/report_user/template/template.php on line 6
+[20-Aug-2018 15:58:47 Asia/Calcutta] PHP Notice:  Undefined index: admin_name in /home/innovadorslab/public_html/i-lab_survey/report_user/template/side_menu.php on line 31
+[20-Aug-2018 15:59:06 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:06 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:06 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:06 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:06 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:06 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:06 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:06 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:06 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:06 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:06 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:06 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:06 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:06 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:06 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:06 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:06 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:06 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:06 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:06 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:06 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:06 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:06 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:06 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:06 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_hhi_get_hhi.php on line 572
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Notice:  Undefined index: title in /home/innovadorslab/public_html/i-lab_survey/report_user/template/template.php on line 6
+[20-Aug-2018 15:59:07 Asia/Calcutta] PHP Notice:  Undefined index: admin_name in /home/innovadorslab/public_html/i-lab_survey/report_user/template/side_menu.php on line 31
+[20-Aug-2018 15:59:25 Asia/Calcutta] PHP Notice:  Undefined index: form_type in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_training_info_training1.php on line 10
+[20-Aug-2018 15:59:25 Asia/Calcutta] PHP Notice:  Undefined variable: x_month in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_training_info_training1.php on line 54
+[20-Aug-2018 15:59:25 Asia/Calcutta] PHP Notice:  Undefined variable: year in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_training_info_training1.php on line 54
+[20-Aug-2018 15:59:25 Asia/Calcutta] PHP Notice:  Undefined variable: form_type in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_training_info_training1.php on line 152
+[20-Aug-2018 15:59:25 Asia/Calcutta] PHP Notice:  Undefined index: title in /home/innovadorslab/public_html/i-lab_survey/report_user/template/template.php on line 6
+[20-Aug-2018 15:59:25 Asia/Calcutta] PHP Notice:  Undefined index: admin_name in /home/innovadorslab/public_html/i-lab_survey/report_user/template/side_menu.php on line 31
+[20-Aug-2018 15:59:36 Asia/Calcutta] PHP Notice:  Undefined index: form_types in /home/innovadorslab/public_html/i-lab_survey/report_user/report_kitichen_raw.php on line 13
+[20-Aug-2018 15:59:36 Asia/Calcutta] PHP Notice:  Undefined variable: District in /home/innovadorslab/public_html/i-lab_survey/report_user/report_kitichen_raw.php on line 74
+[20-Aug-2018 15:59:36 Asia/Calcutta] PHP Notice:  Undefined variable: District in /home/innovadorslab/public_html/i-lab_survey/report_user/report_kitichen_raw.php on line 74
+[20-Aug-2018 15:59:36 Asia/Calcutta] PHP Notice:  Undefined variable: form_types in /home/innovadorslab/public_html/i-lab_survey/report_user/report_kitichen_raw.php on line 161
+[20-Aug-2018 15:59:36 Asia/Calcutta] PHP Notice:  Undefined index: title in /home/innovadorslab/public_html/i-lab_survey/report_user/template/template.php on line 6
+[20-Aug-2018 15:59:36 Asia/Calcutta] PHP Notice:  Undefined index: admin_name in /home/innovadorslab/public_html/i-lab_survey/report_user/template/side_menu.php on line 31
+[20-Aug-2018 15:59:52 Asia/Calcutta] PHP Notice:  Undefined variable: District in /home/innovadorslab/public_html/i-lab_survey/report_user/report_kitichen_raw.php on line 74
+[20-Aug-2018 15:59:52 Asia/Calcutta] PHP Notice:  Undefined variable: District in /home/innovadorslab/public_html/i-lab_survey/report_user/report_kitichen_raw.php on line 74
+[20-Aug-2018 15:59:52 Asia/Calcutta] PHP Notice:  Undefined variable: District in /home/innovadorslab/public_html/i-lab_survey/report_user/report_kitichen_raw.php on line 85
+[20-Aug-2018 15:59:52 Asia/Calcutta] PHP Notice:  Undefined index: title in /home/innovadorslab/public_html/i-lab_survey/report_user/template/template.php on line 6
+[20-Aug-2018 15:59:52 Asia/Calcutta] PHP Notice:  Undefined index: admin_name in /home/innovadorslab/public_html/i-lab_survey/report_user/template/side_menu.php on line 31
+[20-Aug-2018 16:00:07 Asia/Calcutta] PHP Notice:  Undefined index: form_types in /home/innovadorslab/public_html/i-lab_survey/report_user/report_kitichen_raw.php on line 13
+[20-Aug-2018 16:00:07 Asia/Calcutta] PHP Notice:  Undefined variable: District in /home/innovadorslab/public_html/i-lab_survey/report_user/report_kitichen_raw.php on line 74
+[20-Aug-2018 16:00:07 Asia/Calcutta] PHP Notice:  Undefined variable: District in /home/innovadorslab/public_html/i-lab_survey/report_user/report_kitichen_raw.php on line 74
+[20-Aug-2018 16:00:07 Asia/Calcutta] PHP Notice:  Undefined variable: form_types in /home/innovadorslab/public_html/i-lab_survey/report_user/report_kitichen_raw.php on line 161
+[20-Aug-2018 16:00:07 Asia/Calcutta] PHP Notice:  Undefined index: title in /home/innovadorslab/public_html/i-lab_survey/report_user/template/template.php on line 6
+[20-Aug-2018 16:00:07 Asia/Calcutta] PHP Notice:  Undefined index: admin_name in /home/innovadorslab/public_html/i-lab_survey/report_user/template/side_menu.php on line 31
+[20-Aug-2018 16:01:30 Asia/Calcutta] PHP Notice:  Undefined index: title in /home/innovadorslab/public_html/i-lab_survey/report_user/template/template.php on line 6
+[20-Aug-2018 16:01:30 Asia/Calcutta] PHP Notice:  Undefined index: admin_name in /home/innovadorslab/public_html/i-lab_survey/report_user/template/side_menu.php on line 31
+[20-Aug-2018 16:05:36 Asia/Calcutta] PHP Notice:  Undefined index: title in /home/innovadorslab/public_html/i-lab_survey/report_user/template/template.php on line 6
+[20-Aug-2018 16:05:36 Asia/Calcutta] PHP Notice:  Undefined index: admin_name in /home/innovadorslab/public_html/i-lab_survey/report_user/template/side_menu.php on line 31
+[22-Aug-2018 12:37:17 Asia/Calcutta] PHP Notice:  Undefined index: title in /home/innovadorslab/public_html/i-lab_survey/report_user/template/template.php on line 6
+[22-Aug-2018 12:37:17 Asia/Calcutta] PHP Notice:  Undefined index: admin_name in /home/innovadorslab/public_html/i-lab_survey/report_user/template/side_menu.php on line 31
+[22-Aug-2018 13:37:08 Asia/Calcutta] PHP Notice:  Undefined index: title in /home/innovadorslab/public_html/i-lab_survey/report_user/template/template.php on line 6
+[22-Aug-2018 13:37:08 Asia/Calcutta] PHP Notice:  Undefined index: admin_name in /home/innovadorslab/public_html/i-lab_survey/report_user/template/side_menu.php on line 31
+[22-Aug-2018 13:37:13 Asia/Calcutta] PHP Notice:  Undefined index: title in /home/innovadorslab/public_html/i-lab_survey/report_user/template/template.php on line 6
+[22-Aug-2018 13:37:13 Asia/Calcutta] PHP Notice:  Undefined index: admin_name in /home/innovadorslab/public_html/i-lab_survey/report_user/template/side_menu.php on line 31
+[22-Aug-2018 13:37:17 Asia/Calcutta] PHP Notice:  Undefined index: form_type in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_training_info_training1.php on line 10
+[22-Aug-2018 13:37:17 Asia/Calcutta] PHP Notice:  Undefined variable: x_month in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_training_info_training1.php on line 54
+[22-Aug-2018 13:37:17 Asia/Calcutta] PHP Notice:  Undefined variable: year in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_training_info_training1.php on line 54
+[22-Aug-2018 13:37:17 Asia/Calcutta] PHP Notice:  Undefined variable: form_type in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_training_info_training1.php on line 152
+[22-Aug-2018 13:37:17 Asia/Calcutta] PHP Notice:  Undefined index: title in /home/innovadorslab/public_html/i-lab_survey/report_user/template/template.php on line 6
+[22-Aug-2018 13:37:17 Asia/Calcutta] PHP Notice:  Undefined index: admin_name in /home/innovadorslab/public_html/i-lab_survey/report_user/template/side_menu.php on line 31
+[22-Aug-2018 13:37:21 Asia/Calcutta] PHP Notice:  Undefined index: form_type in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_shglist_info_shglist1.php on line 12
+[22-Aug-2018 13:37:21 Asia/Calcutta] PHP Notice:  Undefined variable: District in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_shglist_info_shglist1.php on line 62
+[22-Aug-2018 13:37:21 Asia/Calcutta] PHP Notice:  Undefined variable: District in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_shglist_info_shglist1.php on line 62
+[22-Aug-2018 13:37:21 Asia/Calcutta] PHP Notice:  Undefined variable: employee_id in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_shglist_info_shglist1.php on line 76
+[22-Aug-2018 13:37:21 Asia/Calcutta] PHP Notice:  Undefined variable: employee_id in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_shglist_info_shglist1.php on line 76
+[22-Aug-2018 13:37:21 Asia/Calcutta] PHP Notice:  Undefined variable: employee_id in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_shglist_info_shglist1.php on line 76
+[22-Aug-2018 13:37:21 Asia/Calcutta] PHP Notice:  Undefined variable: employee_id in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_shglist_info_shglist1.php on line 76
+[22-Aug-2018 13:37:21 Asia/Calcutta] PHP Notice:  Undefined variable: employee_id in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_shglist_info_shglist1.php on line 76
+[22-Aug-2018 13:37:21 Asia/Calcutta] PHP Notice:  Undefined variable: employee_id in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_shglist_info_shglist1.php on line 76
+[22-Aug-2018 13:37:21 Asia/Calcutta] PHP Notice:  Undefined variable: employee_id in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_shglist_info_shglist1.php on line 76
+[22-Aug-2018 13:37:21 Asia/Calcutta] PHP Notice:  Undefined variable: employee_id in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_shglist_info_shglist1.php on line 76
+[22-Aug-2018 13:37:21 Asia/Calcutta] PHP Notice:  Undefined variable: employee_id in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_shglist_info_shglist1.php on line 76
+[22-Aug-2018 13:37:21 Asia/Calcutta] PHP Notice:  Undefined variable: employee_id in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_shglist_info_shglist1.php on line 76
+[22-Aug-2018 13:37:21 Asia/Calcutta] PHP Notice:  Undefined variable: employee_id in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_shglist_info_shglist1.php on line 76
+[22-Aug-2018 13:37:21 Asia/Calcutta] PHP Notice:  Undefined variable: employee_id in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_shglist_info_shglist1.php on line 76
+[22-Aug-2018 13:37:21 Asia/Calcutta] PHP Notice:  Undefined variable: employee_id in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_shglist_info_shglist1.php on line 76
+[22-Aug-2018 13:37:21 Asia/Calcutta] PHP Notice:  Undefined variable: employee_id in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_shglist_info_shglist1.php on line 76
+[22-Aug-2018 13:37:21 Asia/Calcutta] PHP Notice:  Undefined variable: employee_id in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_shglist_info_shglist1.php on line 76
+[22-Aug-2018 13:37:21 Asia/Calcutta] PHP Notice:  Undefined variable: employee_id in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_shglist_info_shglist1.php on line 76
+[22-Aug-2018 13:37:21 Asia/Calcutta] PHP Notice:  Undefined variable: employee_id in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_shglist_info_shglist1.php on line 76
+[22-Aug-2018 13:37:21 Asia/Calcutta] PHP Notice:  Undefined variable: employee_id in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_shglist_info_shglist1.php on line 76
+[22-Aug-2018 13:37:21 Asia/Calcutta] PHP Notice:  Undefined variable: employee_id in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_shglist_info_shglist1.php on line 76
+[22-Aug-2018 13:37:21 Asia/Calcutta] PHP Notice:  Undefined variable: months in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_shglist_info_shglist1.php on line 127
+[22-Aug-2018 13:37:21 Asia/Calcutta] PHP Notice:  Undefined variable: months in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_shglist_info_shglist1.php on line 127
+[22-Aug-2018 13:37:21 Asia/Calcutta] PHP Notice:  Undefined variable: months in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_shglist_info_shglist1.php on line 127
+[22-Aug-2018 13:37:21 Asia/Calcutta] PHP Notice:  Undefined variable: months in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_shglist_info_shglist1.php on line 127
+[22-Aug-2018 13:37:21 Asia/Calcutta] PHP Notice:  Undefined variable: months in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_shglist_info_shglist1.php on line 127
+[22-Aug-2018 13:37:21 Asia/Calcutta] PHP Notice:  Undefined variable: months in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_shglist_info_shglist1.php on line 127
+[22-Aug-2018 13:37:21 Asia/Calcutta] PHP Notice:  Undefined variable: months in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_shglist_info_shglist1.php on line 127
+[22-Aug-2018 13:37:21 Asia/Calcutta] PHP Notice:  Undefined variable: months in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_shglist_info_shglist1.php on line 127
+[22-Aug-2018 13:37:21 Asia/Calcutta] PHP Notice:  Undefined variable: months in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_shglist_info_shglist1.php on line 127
+[22-Aug-2018 13:37:21 Asia/Calcutta] PHP Notice:  Undefined variable: months in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_shglist_info_shglist1.php on line 127
+[22-Aug-2018 13:37:21 Asia/Calcutta] PHP Notice:  Undefined variable: months in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_shglist_info_shglist1.php on line 127
+[22-Aug-2018 13:37:21 Asia/Calcutta] PHP Notice:  Undefined variable: months in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_shglist_info_shglist1.php on line 127
+[22-Aug-2018 13:37:21 Asia/Calcutta] PHP Notice:  Undefined variable: Year in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_shglist_info_shglist1.php on line 141
+[22-Aug-2018 13:37:21 Asia/Calcutta] PHP Notice:  Undefined variable: Year in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_shglist_info_shglist1.php on line 141
+[22-Aug-2018 13:37:21 Asia/Calcutta] PHP Notice:  Undefined variable: Year in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_shglist_info_shglist1.php on line 141
+[22-Aug-2018 13:37:21 Asia/Calcutta] PHP Notice:  Undefined variable: Year in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_shglist_info_shglist1.php on line 141
+[22-Aug-2018 13:37:21 Asia/Calcutta] PHP Notice:  Undefined variable: Year in /home/innovadorslab/public_html/i-lab_survey/report_user/report_MEO_shglist_info_shglist1.php on line 141
+[22-Aug-2018 13:37:21 Asia/Calcutta] PHP Notice:  Undefined index: title in /home/innovadorslab/public_html/i-lab_survey/report_user/template/template.php on line 6
+[22-Aug-2018 13:37:21 Asia/Calcutta] PHP Notice:  Undefined index: admin_name in /home/innovadorslab/public_html/i-lab_survey/report_user/template/side_menu.php on line 31
+[22-Aug-2018 13:37:34 Asia/Calcutta] PHP Notice:  Undefined index: title in /home/innovadorslab/public_html/i-lab_survey/report_user/template/template.php on line 6
+[22-Aug-2018 13:37:34 Asia/Calcutta] PHP Notice:  Undefined index: admin_name in /home/innovadorslab/public_html/i-lab_survey/report_user/template/side_menu.php on line 31
+[22-Aug-2018 13:37:47 Asia/Calcutta] PHP Notice:  Undefined index: title in /home/innovadorslab/public_html/i-lab_survey/report_user/template/template.php on line 6
+[22-Aug-2018 13:37:47 Asia/Calcutta] PHP Notice:  Undefined index: admin_name in /home/innovadorslab/public_html/i-lab_survey/report_user/template/side_menu.php on line 31
+[22-Aug-2018 13:37:56 Asia/Calcutta] PHP Notice:  Undefined index: form_types in /home/innovadorslab/public_html/i-lab_survey/report_user/report_post_harvest_loss_raw.php on line 13
+[22-Aug-2018 13:37:56 Asia/Calcutta] PHP Notice:  Undefined variable: form_types in /home/innovadorslab/public_html/i-lab_survey/report_user/report_post_harvest_loss_raw.php on line 163
+[22-Aug-2018 13:37:56 Asia/Calcutta] PHP Notice:  Undefined index: title in /home/innovadorslab/public_html/i-lab_survey/report_user/template/template.php on line 6
+[22-Aug-2018 13:37:56 Asia/Calcutta] PHP Notice:  Undefined index: admin_name in /home/innovadorslab/public_html/i-lab_survey/report_user/template/side_menu.php on line 31
+[22-Aug-2018 13:38:04 Asia/Calcutta] PHP Notice:  Undefined index: title in /home/innovadorslab/public_html/i-lab_survey/report_user/template/template.php on line 6
+[22-Aug-2018 13:38:04 Asia/Calcutta] PHP Notice:  Undefined index: admin_name in /home/innovadorslab/public_html/i-lab_survey/report_user/template/side_menu.php on line 31
+[22-Aug-2018 13:38:09 Asia/Calcutta] PHP Notice:  Undefined index: title in /home/innovadorslab/public_html/i-lab_survey/report_user/template/template.php on line 6
+[22-Aug-2018 13:38:09 Asia/Calcutta] PHP Notice:  Undefined index: admin_name in /home/innovadorslab/public_html/i-lab_survey/report_user/template/side_menu.php on line 31
+[22-Aug-2018 14:49:07 Asia/Calcutta] PHP Notice:  Undefined index: title in /home/innovadorslab/public_html/i-lab_survey/report_user/template/template.php on line 6
+[22-Aug-2018 14:49:07 Asia/Calcutta] PHP Notice:  Undefined index: admin_name in /home/innovadorslab/public_html/i-lab_survey/report_user/template/side_menu.php on line 31

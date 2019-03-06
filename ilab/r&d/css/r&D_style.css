@@ -1,0 +1,50 @@
+div.background {
+  background: url(../img/banner/12change.jpg) ;
+   background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+     opacity: 1.4;
+  height: 300px;
+  /*border: 2px solid black;*/
+}
+ /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    /*.row.content {height: 1500px}*/
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      /*background-color: #f1f1f1;*/
+      /*height: 100%;*/
+    }
+    
+    #inner-div{   
+  /*background: rgba(199, 230, 175, 0.17);*/
+  display: inline-block;
+  width: 20%;
+  padding: 10px;
+  background-color: #f1f1f1;
+  /*border: 1px solid #D1DCDA;*/
+}
+#menu-div{
+  /*background: rgba(138, 210, 190, 0.45);*/
+  float: right;
+  width: 80%;
+  padding: 10px;
+  /*border: 1px solid #D0D8D1;*/
+}
+    /* Set black background color, white text and some padding */
+    /*footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }*/
+   .new_rd {
+    font-family: "Times New Roman", Times, serif;
+   }
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }

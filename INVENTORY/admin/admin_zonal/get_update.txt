@@ -1,0 +1,1 @@
+---UPDATE `lt_master_field_material_requsition` SET `status`='2',`no_item_issued_f`='4',`total_no_item_issued`='4',`issuer_date`='2018-03-06',`issuer_time`='18:30:43' where `fmr_unqiue_mr_id`='field001_field_00_1'---1---

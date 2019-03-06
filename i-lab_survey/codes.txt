@@ -1,0 +1,19 @@
+ALTER TABLE `care_master_admin_info` ADD `user_mobile_no` VARCHAR(255) NULL DEFAULT NULL AFTER `cama_time`;
+
+ALTER TABLE `care_master_admin_info` ADD `Designation` VARCHAR(255) NULL DEFAULT NULL AFTER `cama_email`;
+
+
+ALTER TABLE `care_master_mt_NGTKO_instruction_form` ADD `care_MT_id` VARCHAR(255) NULL DEFAULT NULL AFTER `care_NGTKO_lat_id`;
+
+
+ALTER TABLE `care_master_mt_NGTKO_instruction_form` CHANGE `care_group_type` `care_group_type` TEXT CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL DEFAULT NULL COMMENT 'Type of Group -Famers Field School Group,Self Help Group,Any Others';
+
+
+ALTER TABLE `care_master_mt_NGTKO_instruction_form` CHANGE `care_NGTK_name` `care_NGTK_name` TEXT CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL DEFAULT NULL COMMENT 'Name of the NGTK';
+
+
+ALTER TABLE `care_master_mt_NGTKO_instruction_form_meo` CHANGE `care_group_type` `care_group_type` TEXT CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL DEFAULT NULL COMMENT 'Type of Group -Famers Field School Group,Self Help Group,Any Others';
+
+ALTER TABLE `care_master_mt_NGTKO_instruction_form_meo` CHANGE `care_NGTK_name` `care_NGTK_name` TEXT CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL DEFAULT NULL COMMENT 'Name of the NGTK';
+
+ALTER TABLE `care_master_mt_NGTKO_instruction_form_meo` ADD `serial_id_old` VARCHAR(255) NULL DEFAULT NULL AFTER `slno`;

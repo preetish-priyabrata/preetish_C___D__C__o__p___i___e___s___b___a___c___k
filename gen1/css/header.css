@@ -1,0 +1,287 @@
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond|Cardo:400italic);
+#header{
+  /*background-color: #c65495;*/
+   /*background-color: #8a021a;*/
+   background-color:#F99391;
+     /*background-color:#F063DF;*/
+     
+}
+#menu_tops {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+body {
+  margin: 0;
+  /*background-color: #5774b8;*/
+}
+.sandbox-correct-pronounciation {
+  padding: 1em 0 1em 0;
+}
+.heading-correct-pronounciation {
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+h1 {
+  color: #fff;
+  font-family: 'Cardo', serif;
+  font-size: 1em;
+  /*font-size: 1.5em;*/
+  font-weight: normal;
+  font-style: italic;
+  letter-spacing: 0.1em;
+  line-height: 2.2em;
+}
+em {
+  font-family: 'EB Garamond', serif;
+  font-size: 2.5em;
+  /*font-size: 3.5em;*/
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  display: block;
+  font-style: normal;
+  padding-top: 0em;
+  /*padding-top: 0.1em;*/
+  text-shadow: 0.07em 0.07em 0 rgba(0, 0, 0, 0.1);
+}
+em::before,
+em::after {
+  content: "§";
+  display: inline-block;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  opacity: 1.2;
+  margin: 0 0.6em;
+  font-size: 0.5em;
+}
+.bottom {
+  font-size: 1.5em;
+  letter-spacing: 0.07em;
+  font-size: 1em;
+  display: block;
+}
+/*slocail link*/
+#socal_id {
+    margin-top: -37px;
+    padding-bottom: 8px;
+}
+.fa {
+ /* padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;*/
+  padding: 11px 27px 11px 14px;
+  font-size: 18px;
+  width: 5px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 4px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-android {
+  background: #a4c639;
+  color: white;
+}
+
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+
+.fa-vimeo {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
+
+.fa-vine {
+  background: #00b489;
+  color: white;
+}
+
+.fa-foursquare {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-stumbleupon {
+  background: #eb4924;
+  color: white;
+}
+
+.fa-flickr {
+  background: #f40083;
+  color: white;
+}
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+
+.fa-soundcloud {
+  background: #ff5500;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}
+
+/*section */
+.section_menu {
+  background-color: lightgrey;
+  float: left;
+  width: 20%;
+  padding: 25px;
+   margin: 25px;
+   border-radius: 6px;
+   font: 12px/22px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+   text-align: center;
+}
+code {
+  background: #2db34a;
+  border-radius: 6px;
+  color: #fff;
+  display: block;
+  font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+  padding: 24px 15px;
+  text-align: center;
+}
+.section_menu{
+  /*margin: 0 1.5% 24px 1.5%;*/
+  margin: 0 0.0% 2px 0.0%;
+  border: 1px solid;
+}
+
+.menu_id {
+    color: #DD4B39;
+}
+
+.carousel {
+    position: relative;
+}
+
+.controllers {
+    position: absolute;
+    top: 50px;
+}
+
+.carousel-caption {
+left: 20%;
+right: 20%;
+padding-bottom: 30px;
+}
+
+.carousel-control.left, 
+.carousel-control.right {
+    background-image: none;
+}
+
+.carousel-caption {
+position: relative;
+left: 0;
+right: 0;
+bottom: 0;
+z-index: 10;
+padding-top: 0;
+padding-bottom: 0;
+color: #000;
+text-align: center;
+text-shadow: none;
+text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+/**/
+.background22 {
+    /*background-color: #91A8d0;*/
+   
+    background-color: #f7cac9;
+    color: black;
+    /*f7cac9*/
+}
+
+.glyphicon.glyphicon-chevron-right.home {
+  margin-right: -475px;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+    width: 30px;
+    height: 30px;
+    margin-top: 95px;
+    font-size: 30px;
+}
+@media screen and (min-width: 768px) {
+  .carousel-indicators {
+    bottom: -305px;
+}
+}
+/*.col-sm-4.home {
+    background-color: #f7cac9;
+    height: 357px;
+}*/
