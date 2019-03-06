@@ -1,0 +1,47 @@
+[25-Sep-2017 08:25:24 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/innovadorslab/public_html/kiit_cat4/student/certificate_details_list.php on line 119
+[25-Sep-2017 08:25:56 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/innovadorslab/public_html/kiit_cat4/student/certificate_details_list.php on line 119
+[25-Sep-2017 08:26:07 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/innovadorslab/public_html/kiit_cat4/student/certificate_details_list.php on line 119
+[25-Sep-2017 08:26:40 UTC] PHP Notice:  Undefined index: userId in /home/innovadorslab/public_html/kiit_cat4/student/student_dashboard.php on line 5
+[25-Sep-2017 08:26:40 UTC] PHP Notice:  Undefined variable: title in /home/innovadorslab/public_html/kiit_cat4/template/header.php on line 8
+[25-Sep-2017 08:26:58 UTC] PHP Notice:  Undefined index: userId in /home/innovadorslab/public_html/kiit_cat4/student/student_dashboard.php on line 5
+[25-Sep-2017 08:26:58 UTC] PHP Notice:  Undefined variable: title in /home/innovadorslab/public_html/kiit_cat4/template/header.php on line 8
+[25-Sep-2017 08:33:16 UTC] PHP Notice:  Undefined index: userId in /home/innovadorslab/public_html/kiit_cat4/student/certificate_details_list.php on line 5
+[25-Sep-2017 08:33:18 UTC] PHP Notice:  Undefined index: userId in /home/innovadorslab/public_html/kiit_cat4/student/student_dashboard.php on line 5
+[25-Sep-2017 08:33:18 UTC] PHP Notice:  Undefined variable: title in /home/innovadorslab/public_html/kiit_cat4/template/header.php on line 8
+[25-Sep-2017 08:33:18 UTC] PHP Notice:  Undefined index: user_name in /home/innovadorslab/public_html/kiit_cat4/template/side_bar.php on line 18
+[25-Sep-2017 08:33:18 UTC] PHP Notice:  Undefined index: user_name in /home/innovadorslab/public_html/kiit_cat4/template/side_bar.php on line 24
+[25-Sep-2017 08:34:33 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/innovadorslab/public_html/kiit_cat4/template/side_bar.php on line 1
+[25-Sep-2017 14:04:41 Asia/Calcutta] PHP Notice:  A session had already been started - ignoring session_start() in /home/innovadorslab/public_html/kiit_cat4/template/side_bar.php on line 1
+[25-Sep-2017 08:35:19 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/innovadorslab/public_html/kiit_cat4/template/side_bar.php on line 1
+[25-Sep-2017 14:05:27 Asia/Calcutta] PHP Notice:  A session had already been started - ignoring session_start() in /home/innovadorslab/public_html/kiit_cat4/template/side_bar.php on line 1
+[25-Sep-2017 14:05:37 Asia/Calcutta] PHP Notice:  Undefined index: L_slno in /home/innovadorslab/public_html/kiit_cat4/student/stud_profile_setting.php on line 12
+[25-Sep-2017 14:05:37 Asia/Calcutta] PHP Notice:  A session had already been started - ignoring session_start() in /home/innovadorslab/public_html/kiit_cat4/template/side_bar.php on line 1
+[25-Sep-2017 14:05:52 Asia/Calcutta] PHP Notice:  Undefined index: L_slno in /home/innovadorslab/public_html/kiit_cat4/student/stud_change_password.php on line 12
+[25-Sep-2017 14:05:52 Asia/Calcutta] PHP Notice:  A session had already been started - ignoring session_start() in /home/innovadorslab/public_html/kiit_cat4/template/side_bar.php on line 1
+[25-Sep-2017 14:06:01 Asia/Calcutta] PHP Notice:  A session had already been started - ignoring session_start() in /home/innovadorslab/public_html/kiit_cat4/template/side_bar.php on line 1
+[25-Sep-2017 10:01:08 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/innovadorslab/public_html/kiit_cat4/template/side_bar.php on line 1
+[25-Sep-2017 10:01:17 UTC] PHP Notice:  Undefined index: userId in /home/innovadorslab/public_html/kiit_cat4/student/student_dashboard.php on line 5
+[25-Sep-2017 10:01:17 UTC] PHP Notice:  Undefined variable: title in /home/innovadorslab/public_html/kiit_cat4/template/header.php on line 8
+[25-Sep-2017 10:01:17 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/innovadorslab/public_html/kiit_cat4/template/side_bar.php on line 1
+[25-Sep-2017 10:01:17 UTC] PHP Notice:  Undefined index: user_name in /home/innovadorslab/public_html/kiit_cat4/template/side_bar.php on line 19
+[25-Sep-2017 10:01:17 UTC] PHP Notice:  Undefined index: user_name in /home/innovadorslab/public_html/kiit_cat4/template/side_bar.php on line 25
+[25-Sep-2017 10:02:16 UTC] PHP Notice:  Undefined index: userId in /home/innovadorslab/public_html/kiit_cat4/student/student_dashboard.php on line 5
+[25-Sep-2017 10:02:16 UTC] PHP Notice:  Undefined variable: title in /home/innovadorslab/public_html/kiit_cat4/template/header.php on line 8
+[25-Sep-2017 10:02:16 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/innovadorslab/public_html/kiit_cat4/template/side_bar.php on line 1
+[25-Sep-2017 10:02:16 UTC] PHP Notice:  Undefined index: user_name in /home/innovadorslab/public_html/kiit_cat4/template/side_bar.php on line 19
+[25-Sep-2017 10:02:16 UTC] PHP Notice:  Undefined index: user_name in /home/innovadorslab/public_html/kiit_cat4/template/side_bar.php on line 25
+[25-Sep-2017 10:03:04 UTC] PHP Notice:  Undefined index: userId in /home/innovadorslab/public_html/kiit_cat4/student/student_dashboard.php on line 5
+[25-Sep-2017 10:07:17 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/innovadorslab/public_html/kiit_cat4/template/side_bar.php on line 1
+[25-Sep-2017 15:38:36 Asia/Calcutta] PHP Notice:  A session had already been started - ignoring session_start() in /home/innovadorslab/public_html/kiit_cat4/template/side_bar.php on line 1
+[25-Sep-2017 10:08:58 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/innovadorslab/public_html/kiit_cat4/template/side_bar.php on line 1
+[25-Sep-2017 10:08:58 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/innovadorslab/public_html/kiit_cat4/template/side_bar.php on line 1
+[25-Sep-2017 15:39:12 Asia/Calcutta] PHP Notice:  A session had already been started - ignoring session_start() in /home/innovadorslab/public_html/kiit_cat4/template/side_bar.php on line 1
+[25-Sep-2017 10:09:26 UTC] PHP Notice:  Undefined index: L_student_roll in /home/innovadorslab/public_html/kiit_cat4/student/certificate_details_list.php on line 5
+[25-Sep-2017 10:09:28 UTC] PHP Notice:  Undefined index: L_student_roll in /home/innovadorslab/public_html/kiit_cat4/student/student_dashboard.php on line 5
+[25-Sep-2017 12:05:39 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/innovadorslab/public_html/kiit_cat4/template/side_bar.php on line 1
+[25-Sep-2017 17:36:02 Asia/Calcutta] PHP Notice:  A session had already been started - ignoring session_start() in /home/innovadorslab/public_html/kiit_cat4/template/side_bar.php on line 1
+[25-Sep-2017 12:10:07 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/innovadorslab/public_html/kiit_cat4/template/side_bar.php on line 1
+[28-Sep-2017 03:07:01 UTC] PHP Notice:  Undefined index: L_student_roll in /home/innovadorslab/public_html/kiit_cat4/student/student_dashboard.php on line 5
+[28-Sep-2017 03:20:27 UTC] PHP Notice:  Undefined index: L_student_roll in /home/innovadorslab/public_html/kiit_cat4/student/certificate_details_list.php on line 5
+[28-Sep-2017 05:12:17 UTC] PHP Notice:  Undefined index: L_student_roll in /home/innovadorslab/public_html/kiit_cat4/student/stud_change_password.php on line 6
+[28-Sep-2017 05:12:22 UTC] PHP Notice:  Undefined index: L_student_roll in /home/innovadorslab/public_html/kiit_cat4/student/stud_profile_setting.php on line 6

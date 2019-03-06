@@ -1,0 +1,6 @@
+[25-Sep-2017 13:53:59 Asia/Calcutta] PHP Notice:  Undefined index: email_id in /home/innovadorslab/public_html/kiit_cat4/login_process.php on line 14
+[25-Sep-2017 13:53:59 Asia/Calcutta] PHP Notice:  Undefined index: pass_word in /home/innovadorslab/public_html/kiit_cat4/login_process.php on line 15
+[25-Sep-2017 13:55:00 Asia/Calcutta] PHP Notice:  Undefined index: user_name in /home/innovadorslab/public_html/kiit_cat4/login_process.php on line 39
+[25-Sep-2017 13:55:41 Asia/Calcutta] PHP Notice:  Undefined index: user_name in /home/innovadorslab/public_html/kiit_cat4/login_process.php on line 39
+[25-Sep-2017 14:02:15 Asia/Calcutta] PHP Notice:  Undefined index: user_name in /home/innovadorslab/public_html/kiit_cat4/login_process.php on line 39
+[25-Sep-2017 14:02:33 Asia/Calcutta] PHP Notice:  Undefined index: user_name in /home/innovadorslab/public_html/kiit_cat4/login_process.php on line 39
